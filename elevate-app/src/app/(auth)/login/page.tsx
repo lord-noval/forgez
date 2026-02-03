@@ -46,6 +46,26 @@ interface LoginFormData {
 // Component
 // ============================================================================
 
+// Map Supabase error messages to translation keys
+function getErrorKey(error: string): string {
+  const errorMap: Record<string, string> = {
+    'Invalid login credentials': 'invalidCredentials',
+    'Email not confirmed': 'emailNotConfirmed',
+    'User not found': 'userNotFound',
+    'Invalid email': 'invalidEmail',
+    'Too many requests': 'tooManyRequests',
+    'Network request failed': 'networkError',
+    'Failed to fetch': 'networkError',
+  };
+
+  for (const [key, value] of Object.entries(errorMap)) {
+    if (error.toLowerCase().includes(key.toLowerCase())) {
+      return value;
+    }
+  }
+  return 'unknown';
+}
+
 export default function LoginPage() {
   const [activeBenefit, setActiveBenefit] = useState(0);
   const router = useRouter();
@@ -126,7 +146,8 @@ export default function LoginPage() {
       router.push("/dashboard");
     },
     onError: (error) => {
-      setGlobalError(error.message);
+      const errorKey = getErrorKey(error.message);
+      setGlobalError(t(`errors.${errorKey}`));
     },
   });
 
@@ -152,7 +173,8 @@ export default function LoginPage() {
 
       if (error) throw error;
     } catch (err: unknown) {
-      setGlobalError(err instanceof Error ? err.message : "Failed to sign in with Google");
+      const errorKey = err instanceof Error ? getErrorKey(err.message) : 'unknown';
+      setGlobalError(t(`errors.${errorKey}`));
     }
   };
 

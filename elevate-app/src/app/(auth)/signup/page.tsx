@@ -45,6 +45,30 @@ interface PasswordStrength {
 }
 
 // ============================================================================
+// Error Mapping Helper
+// ============================================================================
+
+function getErrorKey(error: string): string {
+  const errorMap: Record<string, string> = {
+    'User already registered': 'emailAlreadyRegistered',
+    'already been registered': 'emailAlreadyRegistered',
+    'Password should be at least': 'weakPassword',
+    'Invalid email': 'invalidEmail',
+    'Too many requests': 'tooManyRequests',
+    'Network request failed': 'networkError',
+    'Failed to fetch': 'networkError',
+    'Signups not allowed': 'signupDisabled',
+  };
+
+  for (const [key, value] of Object.entries(errorMap)) {
+    if (error.toLowerCase().includes(key.toLowerCase())) {
+      return value;
+    }
+  }
+  return 'unknown';
+}
+
+// ============================================================================
 // Password Strength Indicator Component
 // ============================================================================
 
@@ -315,13 +339,14 @@ export default function SignupPage() {
 
       if (error) throw error;
 
-      // Skip email verification - go directly to onboarding
+      // Skip email verification - go directly to quests
       if (authData.user) {
-        router.push("/onboarding");
+        router.push("/quest/1");
       }
     },
     onError: (error) => {
-      setGlobalError(error.message);
+      const errorKey = getErrorKey(error.message);
+      setGlobalError(t(`errors.${errorKey}`));
     },
   });
 
@@ -355,7 +380,8 @@ export default function SignupPage() {
 
       if (error) throw error;
     } catch (err: unknown) {
-      setGlobalError(err instanceof Error ? err.message : "Failed to sign up with Google");
+      const errorKey = err instanceof Error ? getErrorKey(err.message) : 'unknown';
+      setGlobalError(t(`errors.${errorKey}`));
     }
   };
 
