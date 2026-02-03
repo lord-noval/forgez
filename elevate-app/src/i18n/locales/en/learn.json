@@ -1,0 +1,114 @@
+{
+  "title": "Skill Forge",
+  "subtitle": "Discover training to fortify your abilities and advance your quest",
+  "search": {
+    "placeholder": "Search training or powers..."
+  },
+  "industries": {
+    "all": "All",
+    "space": "Space",
+    "energy": "Energy",
+    "robotics": "Robotics",
+    "software": "Software/AI"
+  },
+  "sections": {
+    "recommended": "Destined for You",
+    "inProgress": "In Training",
+    "completed": "Mastered",
+    "bookmarked": "Marked"
+  },
+  "resource": {
+    "title": "Title",
+    "description": "Description",
+    "provider": "Provider",
+    "duration": "Duration",
+    "level": "Rank",
+    "skills": "Powers Covered",
+    "rating": "Rating",
+    "reviews": "Reviews",
+    "enrolled": "Enrolled",
+    "format": "Format"
+  },
+  "formats": {
+    "course": "Course",
+    "tutorial": "Tutorial",
+    "article": "Scroll",
+    "video": "Video",
+    "book": "Tome",
+    "podcast": "Podcast",
+    "workshop": "Workshop",
+    "certification": "Certification"
+  },
+  "levels": {
+    "beginner": "Novice",
+    "intermediate": "Adept",
+    "advanced": "Expert",
+    "allLevels": "All Ranks"
+  },
+  "progress": {
+    "notStarted": "Not Started",
+    "inProgress": "In Training",
+    "completed": "Mastered",
+    "percentComplete": "{percent}% Complete"
+  },
+  "actions": {
+    "startLearning": "Begin Training",
+    "continue": "Continue",
+    "markComplete": "Mark as Mastered",
+    "bookmark": "Mark",
+    "removeBookmark": "Unmark",
+    "viewResource": "View Resource",
+    "shareResource": "Share"
+  },
+  "filters": {
+    "bySkill": "By Power",
+    "byFormat": "By Format",
+    "byLevel": "By Rank",
+    "byDuration": "By Duration",
+    "byProvider": "By Provider",
+    "freeOnly": "Free Only"
+  },
+  "duration": {
+    "short": "< 1 hour",
+    "medium": "1-5 hours",
+    "long": "5-20 hours",
+    "extended": "20+ hours"
+  },
+  "recommendations": {
+    "basedOnSkills": "Based on your powers",
+    "basedOnGoals": "Based on your quest",
+    "trending": "Trending",
+    "popular": "Popular",
+    "newlyAdded": "Newly Added"
+  },
+  "empty": {
+    "noRecommendations": "No recommendations yet",
+    "noInProgress": "No training in progress",
+    "noCompleted": "No mastered training",
+    "noBookmarks": "No marked resources",
+    "addSkills": "Add powers to get personalized recommendations",
+    "noCourses": "No training found",
+    "adjustFilters": "Try adjusting your filters or search query",
+    "clearFilters": "Clear filters"
+  },
+  "notifications": {
+    "bookmarked": "Resource marked!",
+    "unbookmarked": "Mark removed",
+    "completed": "Congratulations on mastering this training!",
+    "progressSaved": "Progress saved"
+  },
+  "recommended": {
+    "badge": "Recommended",
+    "forYou": "Destined for You"
+  },
+  "courses": {
+    "all": "All Training",
+    "byIndustry": "{industry} Training",
+    "results": "{count} results",
+    "learnMore": "Learn more"
+  },
+  "partners": {
+    "title": "Training Partners",
+    "description": "We partner with leading educational guilds to bring you quality training that aligns with industry-recognized powers and quest paths."
+  }
+}

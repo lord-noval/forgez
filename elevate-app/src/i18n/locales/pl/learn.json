@@ -1,0 +1,114 @@
+{
+  "title": "Kuźnia Mocy",
+  "subtitle": "Odkryj treningi, aby wzmocnić swoje zdolności i rozwinąć quest",
+  "search": {
+    "placeholder": "Szukaj treningów lub mocy..."
+  },
+  "industries": {
+    "all": "Wszystkie",
+    "space": "Kosmos",
+    "energy": "Energia",
+    "robotics": "Robotyka",
+    "software": "Oprogramowanie/AI"
+  },
+  "sections": {
+    "recommended": "Przeznaczone dla Ciebie",
+    "inProgress": "W Trakcie Treningu",
+    "completed": "Opanowane",
+    "bookmarked": "Zaznaczone"
+  },
+  "resource": {
+    "title": "Tytuł",
+    "description": "Opis",
+    "provider": "Dostawca",
+    "duration": "Czas Trwania",
+    "level": "Ranga",
+    "skills": "Omawiane Moce",
+    "rating": "Ocena",
+    "reviews": "Recenzje",
+    "enrolled": "Zapisanych",
+    "format": "Format"
+  },
+  "formats": {
+    "course": "Kurs",
+    "tutorial": "Tutorial",
+    "article": "Zwój",
+    "video": "Wideo",
+    "book": "Księga",
+    "podcast": "Podcast",
+    "workshop": "Warsztaty",
+    "certification": "Certyfikacja"
+  },
+  "levels": {
+    "beginner": "Nowicjusz",
+    "intermediate": "Adept",
+    "advanced": "Ekspert",
+    "allLevels": "Wszystkie Rangi"
+  },
+  "progress": {
+    "notStarted": "Nierozpoczęte",
+    "inProgress": "W Trakcie Treningu",
+    "completed": "Opanowane",
+    "percentComplete": "{percent}% Ukończono"
+  },
+  "actions": {
+    "startLearning": "Rozpocznij Trening",
+    "continue": "Kontynuuj",
+    "markComplete": "Oznacz jako Opanowane",
+    "bookmark": "Zaznacz",
+    "removeBookmark": "Odznacz",
+    "viewResource": "Zobacz Zasób",
+    "shareResource": "Udostępnij"
+  },
+  "filters": {
+    "bySkill": "Według Mocy",
+    "byFormat": "Według Formatu",
+    "byLevel": "Według Rangi",
+    "byDuration": "Według Czasu Trwania",
+    "byProvider": "Według Dostawcy",
+    "freeOnly": "Tylko Bezpłatne"
+  },
+  "duration": {
+    "short": "< 1 godzina",
+    "medium": "1-5 godzin",
+    "long": "5-20 godzin",
+    "extended": "20+ godzin"
+  },
+  "recommendations": {
+    "basedOnSkills": "Na podstawie twoich mocy",
+    "basedOnGoals": "Na podstawie twojego questu",
+    "trending": "Na Czasie",
+    "popular": "Popularne",
+    "newlyAdded": "Nowo Dodane"
+  },
+  "empty": {
+    "noRecommendations": "Brak rekomendacji",
+    "noInProgress": "Brak treningów w trakcie",
+    "noCompleted": "Brak opanowanych treningów",
+    "noBookmarks": "Brak zaznaczonych zasobów",
+    "addSkills": "Dodaj moce, aby otrzymać spersonalizowane rekomendacje",
+    "noCourses": "Nie znaleziono treningów",
+    "adjustFilters": "Spróbuj dostosować filtry lub wyszukiwanie",
+    "clearFilters": "Wyczyść filtry"
+  },
+  "notifications": {
+    "bookmarked": "Zasób zaznaczony!",
+    "unbookmarked": "Znacznik usunięty",
+    "completed": "Gratulacje z okazji opanowania tego treningu!",
+    "progressSaved": "Postęp zapisany"
+  },
+  "recommended": {
+    "badge": "Polecane",
+    "forYou": "Przeznaczone dla Ciebie"
+  },
+  "courses": {
+    "all": "Wszystkie Treningi",
+    "byIndustry": "Treningi: {industry}",
+    "results": "{count} wyników",
+    "learnMore": "Dowiedz się więcej"
+  },
+  "partners": {
+    "title": "Partnerzy Treningowi",
+    "description": "Współpracujemy z wiodącymi gildiami edukacyjnymi, aby zapewnić Ci wysokiej jakości treningi zgodne z uznanymi mocami i ścieżkami questowymi."
+  }
+}

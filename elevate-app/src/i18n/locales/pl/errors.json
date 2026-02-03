@@ -1,0 +1,90 @@
+{
+  "generic": {
+    "unknown": "Twój quest napotkał przeszkodę. Spróbuj ponownie.",
+    "networkError": "Połączenie z królestwem nie powiodło się. Sprawdź sieć.",
+    "serverError": "Serwery królestwa mają problemy. Spróbuj ponownie później.",
+    "notFound": "Żądany artefakt nie został znaleziony.",
+    "unauthorized": "Brakuje ci uprawnień do tej akcji.",
+    "forbidden": "Dostęp do tego obszaru zabroniony.",
+    "timeout": "Przekroczono limit czasu. Spróbuj ponownie.",
+    "maintenance": "Królestwo jest w trakcie konserwacji. Sprawdź później."
+  },
+  "validation": {
+    "required": "To pole jest wymagane",
+    "minLength": "Musi mieć co najmniej {min} znaków",
+    "maxLength": "Może mieć maksymalnie {max} znaków",
+    "email": "Wprowadź prawidłowy adres e-mail",
+    "url": "Wprowadź prawidłowy adres URL",
+    "number": "Wprowadź prawidłową liczbę",
+    "integer": "Wprowadź liczbę całkowitą",
+    "positive": "Musi być liczbą dodatnią",
+    "date": "Wprowadź prawidłową datę",
+    "futureDate": "Data musi być w przyszłości",
+    "pastDate": "Data musi być w przeszłości",
+    "match": "Pola nie są zgodne",
+    "unique": "Ta wartość jest już zajęta",
+    "format": "Nieprawidłowy format"
+  },
+  "auth": {
+    "invalidCredentials": "Nieprawidłowy e-mail lub hasło",
+    "emailNotVerified": "Najpierw zweryfikuj swój e-mail",
+    "accountLocked": "Konto bohatera zablokowane. Skontaktuj się z pomocą.",
+    "accountDisabled": "Konto bohatera zostało wyłączone",
+    "sessionExpired": "Twoja sesja wygasła. Wejdź ponownie do królestwa.",
+    "weakPassword": "Hasło jest za słabe. Użyj wielkich liter, małych liter i cyfr.",
+    "emailInUse": "Ten e-mail jest już zarejestrowany",
+    "usernameInUse": "To imię bohatera jest już zajęte"
+  },
+  "upload": {
+    "fileTooLarge": "Plik jest za duży. Maksymalny rozmiar to {maxSize}MB.",
+    "invalidType": "Nieprawidłowy typ pliku. Dozwolone: {types}",
+    "uploadFailed": "Przesyłanie nie powiodło się. Spróbuj ponownie.",
+    "maxFiles": "Maksymalnie {max} plików dozwolonych",
+    "emptyFile": "Plik jest pusty"
+  },
+  "api": {
+    "projectNotFound": "Podbój nie został znaleziony",
+    "skillNotFound": "Moc nie została znaleziona",
+    "teamNotFound": "Drużyna nie została znaleziona",
+    "jobNotFound": "Quest nie został znaleziony",
+    "userNotFound": "Bohater nie został znaleziony",
+    "feedbackNotFound": "Prośba o mądrość nie została znaleziona",
+    "alreadyExists": "Ten artefakt już istnieje",
+    "cannotDelete": "Nie można usunąć tego artefaktu",
+    "cannotUpdate": "Nie można zaktualizować tego artefaktu",
+    "limitReached": "Osiągnięto limit dla tej akcji"
+  },
+  "permission": {
+    "notOwner": "Nie masz uprawnień do modyfikacji tego",
+    "notMember": "Nie jesteś członkiem tej drużyny",
+    "notAdmin": "Wymagane uprawnienia oficera",
+    "featureDisabled": "Ta funkcja jest obecnie wyłączona",
+    "upgradRequired": "Ulepsz konto, aby uzyskać dostęp do tej funkcji"
+  },
+  "form": {
+    "invalidForm": "Popraw błędy w formularzu",
+    "submitFailed": "Nie udało się wysłać. Spróbuj ponownie.",
+    "saveFailed": "Nie udało się zapisać. Spróbuj ponownie."
+  },
+  "actions": {
+    "retry": "Ponów",
+    "goBack": "Wróć",
+    "goHome": "Wróć do Centrum Dowodzenia",
+    "contactSupport": "Skontaktuj się z pomocą",
+    "refresh": "Odśwież stronę"
+  },
+  "pages": {
+    "notFound": {
+      "title": "Królestwo nie znalezione",
+      "description": "Królestwo, którego szukasz, nie istnieje lub zostało przeniesione."
+    },
+    "serverError": {
+      "title": "Błąd serwera",
+      "description": "Mamy problemy techniczne. Spróbuj ponownie później."
+    },
+    "offline": {
+      "title": "Jesteś Offline",
+      "description": "Sprawdź połączenie z królestwem i spróbuj ponownie."
+    }
+  }
+}

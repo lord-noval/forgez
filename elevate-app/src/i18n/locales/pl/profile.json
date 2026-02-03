@@ -1,0 +1,31 @@
+{
+  "title": "Profil Bohatera",
+  "stats": {
+    "projects": "Podboje",
+    "skills": "Moce",
+    "verifiedSkills": "Udowodnione Moce",
+    "endorsements": "Uznanie Gildii",
+    "careerMatches": "Dopasowania Questów"
+  },
+  "sections": {
+    "topSkills": "Najsilniejsze Moce",
+    "recentProjects": "Ostatnie Podboje"
+  },
+  "verification": {
+    "selfAssessed": "Samozadeklarowana",
+    "peerEndorsed": "Potwierdzona przez Gildię",
+    "projectVerified": "Sprawdzona w Boju",
+    "aiAnalyzed": "Analiza AI",
+    "assessmentPassed": "Próba Zaliczona",
+    "certificationVerified": "Certyfikowana"
+  },
+  "cta": {
+    "title": "Wzmocnij swoją legendę",
+    "description": "Dodaj więcej podbojów i zdobądź uznanie gildii, aby zwiększyć widoczność dla gildii.",
+    "addProject": "Dodaj Podbój",
+    "requestFeedback": "Szukaj Mądrości Gildii"
+  },
+  "actions": {
+    "viewAll": "Zobacz Wszystko"
+  }
+}

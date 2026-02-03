@@ -1,0 +1,47 @@
+{
+  "title": "Kompas Questów",
+  "subtitle": "Wyznacz ścieżkę do legendarnego statusu",
+  "actions": {
+    "viewMySkills": "Zobacz Moje Moce",
+    "addProject": "Dodaj Podbój",
+    "learnNewSkills": "Odblokuj Nowe Moce",
+    "viewJobs": "Poluj na Role"
+  },
+  "industries": {
+    "title": "Wybierz Swoją Krainę",
+    "all": "Wszystkie",
+    "space": {
+      "name": "Kosmos",
+      "description": "Odkryj kariery w lotnictwie, satelitach i eksploracji kosmosu"
+    },
+    "energy": {
+      "name": "Energia",
+      "description": "Odkryj możliwości w energii odnawialnej i zrównoważonym rozwoju"
+    },
+    "robotics": {
+      "name": "Robotyka",
+      "description": "Buduj przyszłość z automatyzacją i inteligentnymi maszynami"
+    },
+    "software": {
+      "name": "Oprogramowanie/AI",
+      "description": "Twórz rozwiązania programowe i systemy sztucznej inteligencji"
+    }
+  },
+  "careerPaths": {
+    "title": "Ścieżki Questów w {industry}",
+    "level": "Ranga {level}",
+    "salaryRange": "Zakres Nagród",
+    "jobGrowth": "Zapotrzebowanie na Questy",
+    "requiredSkills": "Wymagane Moce",
+    "yourMatch": "Twoje Dopasowanie",
+    "match": "{score}% dopasowania"
+  },
+  "careerJourneys": {
+    "title": "Podróże Bohaterów",
+    "careerPath": "Ścieżka Questowa"
+  },
+  "cta": {
+    "title": "Chcesz poprawić swój wynik dopasowania?",
+    "description": "Dodaj podboje do galerii, aby udowodnić więcej mocy i zwiększyć wyniki dopasowania questów."
+  }
+}

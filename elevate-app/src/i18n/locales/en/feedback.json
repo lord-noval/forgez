@@ -1,0 +1,136 @@
+{
+  "title": "Guild Wisdom",
+  "subtitle": "Gather wisdom from your guild members and allies",
+  "pageSubtitle": "Guild reviews for power validation",
+  "sections": {
+    "requests": "My Requests",
+    "pending": "Awaiting Wisdom",
+    "completed": "Wisdom Received",
+    "toRespond": "Wisdom to Share"
+  },
+  "request": {
+    "title": "Seek Guild Wisdom",
+    "subtitle": "Invite allies and guild members to share wisdom about your professional powers.",
+    "selectSkills": "Select powers to get wisdom on",
+    "addRespondents": "Add reviewers",
+    "respondentPlaceholder": "Enter email address",
+    "message": "Personal message (optional)",
+    "messagePlaceholder": "Add a personal note to your request...",
+    "deadline": "Response deadline",
+    "anonymous": "Allow anonymous wisdom",
+    "anonymousDesc": "Reviewers can choose to stay anonymous"
+  },
+  "form": {
+    "requestDetails": "Request Details",
+    "titleLabel": "Title",
+    "titlePlaceholder": "e.g., Guild Review for Q1",
+    "titleRequired": "Please provide a title for your wisdom request",
+    "contextLabel": "Context (Optional)",
+    "contextPlaceholder": "Provide any context that might help reviewers share better wisdom...",
+    "promptQuestions": "Guiding Questions",
+    "promptQuestionsDesc": "These questions will guide your reviewers. You can customize them or use our defaults.",
+    "addCustomQuestion": "Add a custom question...",
+    "questionsCount": "{count}/6 questions",
+    "questionRequired": "At least one guiding question is required",
+    "inviteRespondents": "Invite Reviewers",
+    "inviteRespondentsDesc": "Invite allies, mentors, or fellow guild members to share wisdom. Minimum 3, maximum 10.",
+    "emailRequired": "Email *",
+    "nameOptional": "Name (optional)",
+    "relationship": "Relationship",
+    "respondentsCount": "{count}/10 reviewers · Minimum 3 required",
+    "minRespondentsError": "Please invite at least 3 reviewers",
+    "settings": "Settings",
+    "anonymousResponses": "Anonymous Wisdom",
+    "anonymousResponsesDesc": "Reviewer identities will be hidden in the results",
+    "expiresIn": "Expires In",
+    "days": "{count} days",
+    "cancel": "Cancel",
+    "sending": "Sending...",
+    "sendInvitations": "Send Invitations"
+  },
+  "response": {
+    "title": "Share Your Wisdom",
+    "subtitle": "Help {name} strengthen their powers",
+    "rateSkill": "Rate this power",
+    "comments": "Additional wisdom",
+    "commentsPlaceholder": "Share specific examples or guidance...",
+    "voiceFeedback": "Voice Wisdom",
+    "recordVoice": "Record voice message",
+    "stopRecording": "Stop recording",
+    "playRecording": "Play recording",
+    "deleteRecording": "Delete recording",
+    "submitAnonymously": "Submit anonymously"
+  },
+  "rating": {
+    "excellent": "Legendary",
+    "good": "Epic",
+    "adequate": "Adequate",
+    "needsImprovement": "Needs Training",
+    "notObserved": "Not Observed"
+  },
+  "status": {
+    "draft": "Draft",
+    "sent": "Sent",
+    "inProgress": "Gathering",
+    "completed": "Completed",
+    "expired": "Expired",
+    "all": "All",
+    "PENDING": "Pending",
+    "IN_PROGRESS": "Gathering",
+    "COMPLETED": "Completed",
+    "EXPIRED": "Expired",
+    "DECLINED": "Declined"
+  },
+  "card": {
+    "responses": "{count}/{total} responses",
+    "expires": "Expires {time}",
+    "expired": "Expired"
+  },
+  "gallery": {
+    "totalRequests": "Total Requests",
+    "pending": "Pending",
+    "inProgress": "Gathering",
+    "completed": "Completed",
+    "noMatchingFilter": "No requests match the current filter.",
+    "createRequest": "Create Request"
+  },
+  "actions": {
+    "newRequest": "Seek Wisdom",
+    "sendRequest": "Send Request",
+    "cancelRequest": "Cancel Request",
+    "submitFeedback": "Share Wisdom",
+    "viewResponses": "View Wisdom",
+    "remindRespondents": "Send Reminder"
+  },
+  "respondents": {
+    "title": "Reviewers",
+    "status": "Status",
+    "responded": "Responded",
+    "pending": "Pending",
+    "declined": "Declined",
+    "addMore": "Add more reviewers"
+  },
+  "voice": {
+    "recording": "Recording...",
+    "maxDuration": "Max duration: {seconds} seconds",
+    "uploading": "Uploading voice message...",
+    "uploadSuccess": "Voice message uploaded!",
+    "uploadError": "Failed to upload voice message"
+  },
+  "empty": {
+    "noRequests": "No wisdom requests yet",
+    "noRequestsDesc": "Create your first wisdom request to gather valuable insights from allies and guild members.",
+    "noPending": "No pending responses",
+    "noCompleted": "No wisdom received",
+    "startRequest": "Seek guild wisdom to validate your soft powers"
+  },
+  "notifications": {
+    "requestSent": "Wisdom request sent successfully!",
+    "feedbackSubmitted": "Thank you for sharing your wisdom!",
+    "reminderSent": "Reminder sent to pending reviewers"
+  },
+  "errors": {
+    "fetchFailed": "Failed to load requests",
+    "tryAgain": "Try Again"
+  }
+}

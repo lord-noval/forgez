@@ -1,0 +1,51 @@
+{
+  "title": "Ustawienia",
+  "subtitle": "Zarządzaj kontem bohatera i preferencjami",
+  "world": {
+    "title": "Świat Narracyjny",
+    "description": "Wybierz swoje tematyczne doświadczenie",
+    "current": "Obecny świat"
+  },
+  "profile": {
+    "title": "Profil Bohatera",
+    "description": "Twoje publiczne informacje bohatera",
+    "email": "E-mail",
+    "emailCannotChange": "Adres e-mail nie może być zmieniony",
+    "username": "Imię Bohatera",
+    "usernamePlaceholder": "Wprowadź imię bohatera"
+  },
+  "language": {
+    "title": "Język",
+    "description": "Wybierz preferowany język"
+  },
+  "notifications": {
+    "title": "Powiadomienia",
+    "description": "Skonfiguruj kiedy chcesz otrzymywać alerty",
+    "dailyReminder": "Czas Codziennego Przypomnienia",
+    "reminderDescription": "Będziesz otrzymywać przypomnienia o questach i aktualizacjach"
+  },
+  "appearance": {
+    "title": "Wygląd",
+    "description": "Dostosuj wygląd królestwa",
+    "darkMode": "Tryb Ciemny",
+    "darkModeDescription": "Zawsze włączony dla najlepszego doświadczenia",
+    "lightModeError": "Tryb dzienny? Co to jest, 2016 rok?"
+  },
+  "dangerZone": {
+    "title": "Strefa Zagrożenia",
+    "description": "Nieodwracalne akcje dla konta bohatera",
+    "restartJourney": {
+      "title": "Zacznij Podróż od Nowa",
+      "description": "Zresetuj postęp questów, archetyp i XP, aby zacząć od Quest 1.",
+      "button": "Zacznij od Nowa",
+      "confirmTitle": "Zacząć podróż od nowa?",
+      "confirmMessage": "To zresetuje cały postęp questów, wybór archetypu i XP. Twoje podboje i moce zostaną zachowane. Tej akcji nie można cofnąć.",
+      "confirm": "Tak, zacznij od nowa",
+      "cancel": "Anuluj"
+    }
+  },
+  "actions": {
+    "saveChanges": "Zapisz Zmiany",
+    "saved": "Zapisano!"
+  }
+}

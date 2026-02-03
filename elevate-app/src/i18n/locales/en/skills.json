@@ -1,0 +1,130 @@
+{
+  "title": "Powers",
+  "subtitle": "Your proven power profile",
+  "subtitleCount": "Your proven power profile across {count} abilities",
+  "bank": {
+    "title": "Skill Vault",
+    "subtitle": "Track and prove your professional powers",
+    "totalSkills": "Total Powers",
+    "verifiedSkills": "Proven",
+    "pendingVerification": "Awaiting Proof",
+    "endorsements": "Guild Recognition",
+    "avgLevel": "Avg Rank"
+  },
+  "categories": {
+    "KNOWLEDGE": "Knowledge",
+    "SKILL": "Technical Powers",
+    "COMPETENCE": "Competencies",
+    "TRANSVERSAL": "Soft Powers",
+    "LANGUAGE": "Languages",
+    "technical": "Technical Powers",
+    "soft": "Soft Powers",
+    "industry": "Industry Powers",
+    "tools": "Tools & Technologies",
+    "languages": "Languages",
+    "certifications": "Certifications"
+  },
+  "levels": {
+    "beginner": "Novice",
+    "intermediate": "Adept",
+    "advanced": "Expert",
+    "expert": "Master"
+  },
+  "verification": {
+    "title": "Verification Status",
+    "SELF_ASSESSED": "Self-Proclaimed",
+    "PEER_ENDORSED": "Guild Endorsed",
+    "PROJECT_VERIFIED": "Battle-Tested",
+    "AI_ANALYZED": "AI Analyzed",
+    "ASSESSMENT_PASSED": "Trial Passed",
+    "CERTIFICATION_VERIFIED": "Certified",
+    "selfAssessed": "Self-Proclaimed",
+    "selfAssessedDesc": "Power claimed by hero",
+    "peerEndorsed": "Guild Endorsed",
+    "peerEndorsedDesc": "Validated by guild members",
+    "projectVerified": "Battle-Tested",
+    "projectVerifiedDesc": "Demonstrated in conquests",
+    "aiAnalyzed": "AI Analyzed",
+    "aiAnalyzedDesc": "Extracted from artifacts",
+    "assessmentPassed": "Trial Passed",
+    "assessmentPassedDesc": "Passed the challenge",
+    "certificationVerified": "Certified",
+    "certificationVerifiedDesc": "External certification verified"
+  },
+  "frameworks": {
+    "esco": "ESCO",
+    "sfia": "SFIA",
+    "onet": "O*NET",
+    "elevate": "FORGE-Z",
+    "custom": "Custom"
+  },
+  "actions": {
+    "addSkill": "Add Power",
+    "addFirstSkill": "Unlock Your First Power",
+    "editSkill": "Edit Power",
+    "deleteSkill": "Remove Power",
+    "requestEndorsement": "Seek Guild Recognition",
+    "takeAssessment": "Face the Trial",
+    "uploadCertification": "Upload Certification",
+    "viewDetails": "View Details",
+    "export": "Export",
+    "share": "Share",
+    "clear": "Clear",
+    "clearFilters": "Clear filters"
+  },
+  "endorsements": {
+    "title": "Guild Recognition",
+    "requestTitle": "Seek Guild Recognition",
+    "from": "From",
+    "endorsedBy": "Endorsed by {name}",
+    "noEndorsements": "No guild recognition yet",
+    "requestSent": "Recognition request sent!",
+    "thankYou": "Thank you for the endorsement!"
+  },
+  "search": {
+    "placeholder": "Search powers...",
+    "filterByCategory": "Filter by category",
+    "filterByLevel": "Filter by rank",
+    "filterByVerification": "Filter by proof",
+    "allCategories": "All Categories"
+  },
+  "addModal": {
+    "title": "Unlock New Power",
+    "selectSkill": "Select a power",
+    "selectLevel": "Select your rank",
+    "addEvidence": "Add evidence (optional)",
+    "evidencePlaceholder": "Describe how you acquired this power..."
+  },
+  "detailModal": {
+    "level": "Power Rank",
+    "verificationStatus": "Verification Status",
+    "evidence": "Evidence",
+    "endorsements": "Guild Recognition",
+    "projects": "Related Conquests",
+    "learningResources": "Training Resources"
+  },
+  "empty": {
+    "noSkills": "No powers yet",
+    "noMatchingSkills": "No matching powers",
+    "startAdding": "Unlock powers to start forging your proven profile.",
+    "noResults": "No powers match your search",
+    "adjustFilters": "Try adjusting your filters."
+  },
+  "progress": {
+    "overall": "Overall Progress",
+    "thisMonth": "This Month",
+    "skillsAdded": "Powers Unlocked",
+    "skillsVerified": "Powers Proven",
+    "endorsementsReceived": "Recognition Earned"
+  },
+  "overview": {
+    "title": "Powers Overview",
+    "topSkills": "Strongest Powers",
+    "categoryBreakdown": "Category Breakdown",
+    "verificationLevels": "Verification Ranks",
+    "skillsCount": "{count} powers"
+  },
+  "chart": {
+    "level": "Rank {level}"
+  }
+}

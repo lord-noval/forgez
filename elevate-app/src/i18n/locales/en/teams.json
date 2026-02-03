@@ -1,0 +1,126 @@
+{
+  "title": "Fellowships",
+  "subtitle": "Find your fellowship with complementary powers or forge your own",
+  "comingSoon": {
+    "title": "Fellowship Matching is Coming Soon",
+    "description": "We're building intelligent fellowship matching based on complementary powers, experience ranks, and working styles. Join the waitlist to be notified when it launches.",
+    "joinWaitlist": "Join Waitlist",
+    "onTheList": "You're on the list!",
+    "willNotify": "We'll notify you at {email} when fellowship matching launches.",
+    "enterEmail": "Enter your email"
+  },
+  "cta": {
+    "completeProfile": "Complete your power profile first",
+    "addSkillsForMatches": "Add powers to your vault for better fellowship matches",
+    "goToSkillsBank": "Go to Skill Vault"
+  },
+  "preview": {
+    "title": "Preview: Fellowship Discovery",
+    "description": "Here's what fellowship matching will look like"
+  },
+  "features": {
+    "skillComplementarity": {
+      "title": "Power Synergy",
+      "description": "Get matched with allies who have powers that complement yours."
+    },
+    "experienceBalance": {
+      "title": "Experience Balance",
+      "description": "Find the right mix of experience ranks for effective mentorship and learning."
+    },
+    "workingStyleMatch": {
+      "title": "Working Style Match",
+      "description": "Connect with heroes who share your preferred collaboration style."
+    }
+  },
+  "buttons": {
+    "findMatch": "Find Allies",
+    "viewTeam": "View Fellowship",
+    "searchTeams": "Search fellowships..."
+  },
+  "sections": {
+    "myTeams": "My Fellowships",
+    "discover": "Discover Fellowships",
+    "invitations": "Summons",
+    "matches": "Power Matches"
+  },
+  "team": {
+    "name": "Fellowship Name",
+    "description": "Description",
+    "members": "Members",
+    "skills": "Fellowship Powers",
+    "goals": "Quest Goals",
+    "industry": "Industry",
+    "lookingFor": "Seeking",
+    "openPositions": "Open Roles"
+  },
+  "roles": {
+    "owner": "Leader",
+    "admin": "Officer",
+    "member": "Member",
+    "guest": "Guest"
+  },
+  "matching": {
+    "title": "Power Matching",
+    "compatibility": "Compatibility Score",
+    "complementarySkills": "Complementary Powers",
+    "overlappingSkills": "Shared Powers",
+    "missingSkills": "Missing Powers",
+    "workingStyle": "Working Style Match"
+  },
+  "actions": {
+    "createTeam": "Forge a Fellowship",
+    "editTeam": "Edit Fellowship",
+    "deleteTeam": "Disband Fellowship",
+    "leaveTeam": "Leave Fellowship",
+    "joinTeam": "Join the Fellowship",
+    "inviteMember": "Recruit Ally",
+    "removeMember": "Remove Member",
+    "acceptInvitation": "Accept",
+    "declineInvitation": "Decline",
+    "viewProfile": "View Profile",
+    "message": "Message"
+  },
+  "create": {
+    "title": "Forge New Fellowship",
+    "namePlaceholder": "Enter fellowship name",
+    "descriptionPlaceholder": "Describe your fellowship and quest goals...",
+    "selectIndustry": "Select industry focus",
+    "addSkills": "Add required powers",
+    "setGoals": "Set fellowship goals"
+  },
+  "invite": {
+    "title": "Recruit to Fellowship",
+    "searchUsers": "Search heroes",
+    "searchPlaceholder": "Search by name or email...",
+    "selectRole": "Select role",
+    "personalMessage": "Personal message",
+    "messagePlaceholder": "Add a personal summons message...",
+    "inviteSent": "Summons sent!"
+  },
+  "discover": {
+    "searchPlaceholder": "Search fellowships...",
+    "filterByIndustry": "Filter by industry",
+    "filterBySkills": "Filter by powers needed",
+    "sortBy": "Sort by",
+    "sortOptions": {
+      "compatibility": "Best Match",
+      "newest": "Newest",
+      "mostMembers": "Most Members",
+      "alphabetical": "A-Z"
+    }
+  },
+  "empty": {
+    "noTeams": "You're not part of any fellowship yet",
+    "noInvitations": "No pending summons",
+    "noMatches": "No fellowship matches found",
+    "startDiscovering": "Discover fellowships or forge your own"
+  },
+  "notifications": {
+    "teamCreated": "Fellowship forged successfully!",
+    "teamUpdated": "Fellowship updated!",
+    "memberInvited": "Summons sent!",
+    "invitationAccepted": "You joined the fellowship!",
+    "invitationDeclined": "Summons declined",
+    "leftTeam": "You left the fellowship"
+  }
+}

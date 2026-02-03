@@ -1,0 +1,224 @@
+{
+  "nav": {
+    "achievements": "Achievements"
+  },
+  "page": {
+    "title": "Achievements",
+    "subtitle": "Track your progress and unlock rewards",
+    "unlocked": "unlocked"
+  },
+  "unlocked": {
+    "title": "Achievement Unlocked",
+    "continue": "Continue",
+    "viewAll": "View All"
+  },
+  "showcase": {
+    "title": "Achievements",
+    "viewAll": "View All",
+    "progress": "Overall Progress",
+    "recentUnlocks": "Recent Unlocks",
+    "inProgress": "In Progress",
+    "empty": "Complete quests to earn achievements",
+    "startQuest": "Start Quest"
+  },
+  "gallery": {
+    "totalProgress": "Total Progress",
+    "byRarity": "By Rarity",
+    "recentUnlocks": "Recent Unlocks",
+    "noUnlocks": "No achievements yet",
+    "filter": "Filter",
+    "unlocked": "unlocked"
+  },
+  "filter": {
+    "all": "All",
+    "unlocked": "Unlocked",
+    "locked": "Locked",
+    "inprogress": "In Progress"
+  },
+  "card": {
+    "progress": "Progress",
+    "secret": "Secret Achievement"
+  },
+  "rarity": {
+    "common": "Common",
+    "uncommon": "Uncommon",
+    "rare": "Rare",
+    "epic": "Epic",
+    "legendary": "Legendary"
+  },
+  "categories": {
+    "questmaster": "Quest Master",
+    "xplegend": "XP Legend",
+    "knowledgeseeker": "Knowledge Seeker",
+    "portfolioartisan": "Portfolio Artisan",
+    "communitychampion": "Community Champion",
+    "archetypespecialist": "Archetype Specialist",
+    "pioneer": "Pioneer"
+  },
+  "achievements": {
+    "quest_first_step": {
+      "name": "First Step",
+      "description": "Complete your first quest and begin your FORGE-Z journey"
+    },
+    "quest_artifact_seeker": {
+      "name": "Artifact Seeker",
+      "description": "Discover your first epic technology artifact"
+    },
+    "quest_deep_diver": {
+      "name": "Deep Diver",
+      "description": "Complete the Deep Dive quest and unlock knowledge"
+    },
+    "quest_guild_explorer": {
+      "name": "Guild Explorer",
+      "description": "Explore companies and guilds across regions"
+    },
+    "quest_talent_hunter": {
+      "name": "Talent Hunter",
+      "description": "Complete the Talent Hunt and discover career roles"
+    },
+    "quest_wisdom_seeker": {
+      "name": "Wisdom Seeker",
+      "description": "Learn from the leaders and assess your soft skills"
+    },
+    "quest_skill_forger": {
+      "name": "Skill Forger",
+      "description": "Visit the Skill Forge and start your learning path"
+    },
+    "quest_champion": {
+      "name": "Quest Champion",
+      "description": "Complete all 8 quests and master the FORGE-Z journey"
+    },
+    "xp_first_hundred": {
+      "name": "First Hundred",
+      "description": "Earn your first 100 XP"
+    },
+    "xp_rising_star": {
+      "name": "Rising Star",
+      "description": "Reach Level 2 and prove your dedication"
+    },
+    "xp_adventurer": {
+      "name": "Adventurer",
+      "description": "Reach Level 5 and establish yourself"
+    },
+    "xp_veteran": {
+      "name": "Veteran",
+      "description": "Reach Level 10 and become a seasoned explorer"
+    },
+    "xp_elite": {
+      "name": "Elite",
+      "description": "Reach Level 20 and join the elite ranks"
+    },
+    "xp_master": {
+      "name": "Master",
+      "description": "Reach Level 35 and achieve mastery"
+    },
+    "xp_grandmaster": {
+      "name": "Grandmaster",
+      "description": "Reach the legendary Level 50"
+    },
+    "know_first_correct": {
+      "name": "Quick Learner",
+      "description": "Answer your first quiz question correctly"
+    },
+    "know_quiz_ace": {
+      "name": "Quiz Ace",
+      "description": "Answer 5 quiz questions correctly"
+    },
+    "know_quiz_master": {
+      "name": "Quiz Master",
+      "description": "Answer 20 quiz questions correctly"
+    },
+    "know_deep_dive_first": {
+      "name": "Deep Knowledge",
+      "description": "Complete your first deep dive content"
+    },
+    "know_course_starter": {
+      "name": "Course Starter",
+      "description": "Start your first learning course"
+    },
+    "know_scholar": {
+      "name": "Scholar",
+      "description": "Complete 5 deep dive content paths"
+    },
+    "port_first_project": {
+      "name": "Creator",
+      "description": "Upload your first project to your portfolio"
+    },
+    "port_three_projects": {
+      "name": "Builder",
+      "description": "Build a portfolio with 3 projects"
+    },
+    "port_five_projects": {
+      "name": "Craftsman",
+      "description": "Expand your portfolio to 5 projects"
+    },
+    "port_ten_projects": {
+      "name": "Master Artisan",
+      "description": "Showcase 10 projects in your portfolio"
+    },
+    "port_skill_collector": {
+      "name": "Skill Collector",
+      "description": "Add 10 different skills to your profile"
+    },
+    "port_master_artisan": {
+      "name": "Portfolio Legend",
+      "description": "Have 15+ projects with 25+ total skills"
+    },
+    "comm_first_feedback": {
+      "name": "Helpful Peer",
+      "description": "Give your first peer feedback"
+    },
+    "comm_feedback_giver": {
+      "name": "Feedback Champion",
+      "description": "Give 5 peer feedback reviews"
+    },
+    "comm_hackathon_joiner": {
+      "name": "Hackathon Rookie",
+      "description": "Join your first hackathon"
+    },
+    "comm_hackathon_submitter": {
+      "name": "Hackathon Hero",
+      "description": "Submit your first hackathon project"
+    },
+    "comm_guild_member": {
+      "name": "Guild Member",
+      "description": "Join a Discord community guild"
+    },
+    "comm_mentor": {
+      "name": "Mentor",
+      "description": "Give 10 peer feedback reviews and help others grow"
+    },
+    "arch_discovered": {
+      "name": "Identity Found",
+      "description": "Discover your career archetype"
+    },
+    "arch_builder": {
+      "name": "The Builder",
+      "description": "Embrace the Builder archetype - creating is understanding"
+    },
+    "arch_strategist": {
+      "name": "The Strategist",
+      "description": "Embrace the Strategist archetype - planning is winning"
+    },
+    "arch_explorer": {
+      "name": "The Explorer",
+      "description": "Embrace the Explorer archetype - discovery is the goal"
+    },
+    "pioneer_early_adopter": {
+      "name": "Early Adopter",
+      "description": "Be among the first to join FORGE-Z"
+    },
+    "pioneer_company_explorer": {
+      "name": "Industry Scout",
+      "description": "Explore 10 different companies"
+    },
+    "pioneer_role_explorer": {
+      "name": "Career Explorer",
+      "description": "Explore 10 different career roles"
+    }
+  },
+  "toast": {
+    "unlocked": "Achievement Unlocked!",
+    "xpEarned": "+{xp} XP"
+  }
+}

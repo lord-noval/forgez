@@ -1,0 +1,422 @@
+{
+  "navigation": {
+    "back": "Back",
+    "next": "Next",
+    "continue": "Continue Quest"
+  },
+  "quest1": {
+    "title": "Character Creation",
+    "game": {
+      "title": "What games draw you in?",
+      "subtitle": "Your gaming preferences reveal your learning style",
+      "options": {
+        "sandbox": {
+          "label": "Sandbox Games",
+          "description": "Minecraft, Factorio, Kerbal Space Program - building and creating"
+        },
+        "strategy": {
+          "label": "Strategy Games",
+          "description": "Civilization, XCOM, Stellaris - planning and managing"
+        },
+        "adventure": {
+          "label": "Adventure Games",
+          "description": "Zelda, Mass Effect, Outer Wilds - exploring and discovering"
+        },
+        "esports": {
+          "label": "Competitive Games",
+          "description": "League of Legends, Valorant, Rocket League - competing and winning"
+        }
+      }
+    },
+    "domain": {
+      "title": "What future excites you?",
+      "subtitle": "Choose the industry that sparks your curiosity",
+      "options": {
+        "space": {
+          "label": "Space & Aerospace",
+          "description": "Satellites, rockets, exploration of the cosmos"
+        },
+        "energy": {
+          "label": "Energy & Sustainability",
+          "description": "Batteries, fusion, renewable energy systems"
+        },
+        "robotics": {
+          "label": "Robotics & Automation",
+          "description": "Robots, AI systems, autonomous vehicles"
+        },
+        "defense": {
+          "label": "Defense & Security",
+          "description": "Aerospace, cybersecurity, defense technology"
+        }
+      }
+    },
+    "focus": {
+      "title": "What do you want to understand?",
+      "subtitle": "How do you prefer to learn about technology?",
+      "options": {
+        "how_works": {
+          "label": "How It Works",
+          "description": "I want to understand the physics and systems"
+        },
+        "how_build": {
+          "label": "How to Build It",
+          "description": "I want to learn how to create and manufacture"
+        },
+        "who_makes": {
+          "label": "Who Makes It",
+          "description": "I want to know about the people and companies"
+        },
+        "who_operates": {
+          "label": "Who Operates It",
+          "description": "I want to understand operations and deployment"
+        }
+      }
+    },
+    "reveal": {
+      "continue": "Begin Your Journey",
+      "archetype": {
+        "BUILDER": {
+          "name": "The Builder",
+          "tagline": "Creating is understanding",
+          "description": "You learn by doing. Whether it's code, circuits, or spacecraft, you want to build it with your own hands. You thrive in sandbox environments where you can experiment and iterate."
+        },
+        "STRATEGIST": {
+          "name": "The Strategist",
+          "tagline": "Planning is winning",
+          "description": "You see the big picture. Complex systems, resource allocation, long-term planning - these excite you. You excel when you can think several moves ahead."
+        },
+        "EXPLORER": {
+          "name": "The Explorer",
+          "tagline": "Discovery is the goal",
+          "description": "The unknown calls to you. Whether it's uncharted territory, new technologies, or untested ideas, you're driven by curiosity and the thrill of discovery."
+        },
+        "COMPETITOR": {
+          "name": "The Competitor",
+          "tagline": "Excellence through challenge",
+          "description": "You rise to competition. Benchmarks, leaderboards, and measurable goals drive you to be your best. You thrive under pressure and love to optimize."
+        }
+      },
+      "traits": {
+        "hands-on": "Hands-on",
+        "creative": "Creative",
+        "patient": "Patient",
+        "detail-oriented": "Detail-oriented",
+        "analytical": "Analytical",
+        "systematic": "Systematic",
+        "forward-thinking": "Forward-thinking",
+        "calculated": "Calculated",
+        "curious": "Curious",
+        "adventurous": "Adventurous",
+        "open-minded": "Open-minded",
+        "adaptable": "Adaptable",
+        "driven": "Driven",
+        "focused": "Focused",
+        "resilient": "Resilient",
+        "performance-oriented": "Performance-oriented"
+      }
+    }
+  },
+  "quest2": {
+    "title": "The Epic Artifact",
+    "subtitle": "Behold the technology that defines your future",
+    "specs": "Specifications",
+    "watchVideo": "Watch Video",
+    "learnMore": "Learn More",
+    "funFacts": "Fun Facts",
+    "yourMatch": "Your Match"
+  },
+  "quest3": {
+    "title": "Deep Dive",
+    "subtitle": "Choose your path to knowledge",
+    "paths": {
+      "how_works": {
+        "label": "How It Works",
+        "description": "Understand the physics and engineering"
+      },
+      "how_build": {
+        "label": "How It's Built",
+        "description": "Learn the manufacturing process"
+      },
+      "who_makes": {
+        "label": "Who Makes It",
+        "description": "Meet the people and roles"
+      },
+      "who_operates": {
+        "label": "Who Operates It",
+        "description": "Operations and deployment"
+      }
+    },
+    "quiz": {
+      "title": "Knowledge Check",
+      "correct": "Correct!",
+      "incorrect": "Not quite",
+      "explanation": "Explanation"
+    }
+  },
+  "quest4": {
+    "title": "The Guilds",
+    "subtitle": "Discover companies across the globe",
+    "regions": {
+      "poland": "Poland",
+      "germany": "Germany",
+      "ukraine": "Ukraine",
+      "usa": "United States"
+    },
+    "filters": {
+      "all": "All Industries",
+      "space": "Space",
+      "energy": "Energy",
+      "robotics": "Robotics",
+      "defense": "Defense"
+    }
+  },
+  "quest5": {
+    "title": "Talent Hunt",
+    "subtitle": "Explore careers and opportunities",
+    "salary": "Salary Range",
+    "demand": "Market Demand",
+    "growth": "Growth Rate",
+    "skills": "Required Skills",
+    "openPositions": "open positions"
+  },
+  "quest6": {
+    "title": "Leader's Wisdom",
+    "subtitle": "Learn from industry leaders",
+    "assessment": {
+      "title": "Soft Skills Assessment",
+      "description": "Discover your strengths through situational questions"
+    },
+    "softSkills": {
+      "growth-mindset": "Growth Mindset",
+      "ownership": "Ownership",
+      "adaptability": "Adaptability",
+      "collaboration": "Collaboration",
+      "communication": "Communication",
+      "problem-solving": "Problem Solving",
+      "curiosity": "Curiosity",
+      "resilience": "Resilience"
+    }
+  },
+  "quest7": {
+    "title": "Skill Forge",
+    "subtitle": "Level up with curated learning paths",
+    "startCourse": "Start Course",
+    "viewCourse": "View Course",
+    "estimatedTime": "Est. {hours} hours",
+    "certificate": "Certificate"
+  },
+  "quest8": {
+    "title": "Guild Hall",
+    "subtitle": "Connect, build, and compete",
+    "complete": "Complete Quest",
+    "tabs": {
+      "hackathons": "Hackathons",
+      "community": "Community",
+      "portfolio": "Portfolio"
+    },
+    "hackathons": {
+      "sponsoredBy": "Sponsored by {company}",
+      "members": "members",
+      "upcoming": "Upcoming",
+      "active": "Active",
+      "completed": "Completed",
+      "join": "Join Hackathon",
+      "joined": "Joined",
+      "empty": "No hackathons available yet. Check back soon!",
+      "browseAll": "Browse all {count} hackathons"
+    },
+    "community": {
+      "members": "members",
+      "empty": "No community channels available yet."
+    },
+    "portfolio": {
+      "title": "Build Your Portfolio",
+      "description": "Upload projects, get peer reviews, and submit to hackathons to earn XP and showcase your skills.",
+      "upload": "Upload Project",
+      "review": "Get Review",
+      "submit": "Submit to Hackathon",
+      "goToPortfolio": "Go to Portfolio"
+    },
+    "progress": {
+      "hackathons": "Hackathons Joined",
+      "guilds": "Guilds Joined",
+      "xpEarned": "XP Earned"
+    }
+  },
+  "xp": {
+    "earned": "+{amount} XP",
+    "total": "{amount} XP",
+    "level": "Level {level}"
+  },
+  "progress": {
+    "questComplete": "Quest Complete!",
+    "nextQuest": "Next Quest Unlocked"
+  },
+  "flavor": {
+    "questIntro": {
+      "1": {
+        "title": "The Awakening Begins",
+        "intro": "Every legend starts with a single choice. Who will you become in the forge of tomorrow's technology?",
+        "action": "Forge Your Identity"
+      },
+      "2": {
+        "title": "Behold the Artifact",
+        "intro": "Before you stands a marvel of human ingenuity. Let its power ignite your imagination...",
+        "action": "Witness the Technology"
+      },
+      "3": {
+        "title": "Into the Deep",
+        "intro": "Knowledge awaits those brave enough to seek it. Forge your understanding in the fires of learning...",
+        "action": "Begin Your Studies"
+      },
+      "4": {
+        "title": "Seek the Guilds",
+        "intro": "Across the lands, great guilds await champions. Where will your journey take you?",
+        "action": "Discover the Guilds"
+      },
+      "5": {
+        "title": "The Hunt Begins",
+        "intro": "The path to mastery reveals itself. What treasures await those who seek?",
+        "action": "Track Your Destiny"
+      },
+      "6": {
+        "title": "Wisdom of the Elders",
+        "intro": "The greatest leaders share their secrets. Listen well, young champion...",
+        "action": "Receive the Wisdom"
+      },
+      "7": {
+        "title": "The Forge Awaits",
+        "intro": "Your skills are raw ore. The forge will temper them into legendary abilities...",
+        "action": "Enter the Forge"
+      },
+      "8": {
+        "title": "Rise to the Hall",
+        "intro": "You have proven worthy. Now join your fellow champions in the Guild Hall...",
+        "action": "Claim Your Place"
+      }
+    },
+    "questComplete": {
+      "1": "Your identity is forged. The adventure begins!",
+      "2": "The artifact's secrets are revealed. Power awaits!",
+      "3": "Knowledge mastered. Your mind sharpens!",
+      "4": "The guilds recognize your potential!",
+      "5": "The hunt reveals your path forward!",
+      "6": "The elders' wisdom strengthens your resolve!",
+      "7": "Your skills are tempered and ready!",
+      "8": "Champion! Your legend is written!"
+    },
+    "paths": {
+      "how_works": {
+        "rpgTitle": "The Arcane Knowledge",
+        "rpgDesc": "Master the physics and systems that power this technology..."
+      },
+      "how_build": {
+        "rpgTitle": "The Craftsman's Path",
+        "rpgDesc": "Learn the sacred arts of engineering and creation..."
+      },
+      "who_makes": {
+        "rpgTitle": "The Guild Masters",
+        "rpgDesc": "Discover the legendary companies and roles..."
+      },
+      "who_operates": {
+        "rpgTitle": "The Operators",
+        "rpgDesc": "Master the arts of deployment and operations..."
+      }
+    },
+    "quiz": {
+      "trialTitle": "Skill Trial",
+      "trialDesc": "Test your understanding, apprentice. Answer wisely to earn XP.",
+      "beginTrial": "Begin Trial",
+      "correct": "Well done, apprentice!",
+      "incorrect": "Not quite right. Study the explanation."
+    },
+    "xpMessages": {
+      "quizCorrect": "Knowledge gained!",
+      "questComplete": "Quest mastered!",
+      "pathComplete": "Path forged!",
+      "levelUp": "LEVEL UP!"
+    },
+    "levelUp": {
+      "title": "LEVEL UP!",
+      "subtitle": "Your power grows, Champion!",
+      "message": "New challenges await!"
+    }
+  },
+  "hub": {
+    "title": "Your Quest Journey",
+    "subtitle": "Continue your adventure through the 8 quests",
+    "journeyComplete": "You have completed all 8 quests!",
+    "currentQuest": "Current Quest",
+    "continueJourney": "Continue Journey",
+    "champion": "Congratulations, Champion!",
+    "championMessage": "You've completed all 8 quests. Your legend has been forged!",
+    "buildPortfolio": "Build Portfolio",
+    "exploreCareers": "Explore Careers",
+    "questJourney": "Quest Journey",
+    "questAchievements": "Quest Achievements",
+    "viewAll": "View All",
+    "nextSteps": "Continue Your Adventure",
+    "backToDashboard": "Back to Dashboard",
+    "stats": {
+      "questsCompleted": "Quests Completed",
+      "questXP": "Quest XP",
+      "currentLevel": "Current Level"
+    },
+    "activities": {
+      "addProject": "Add a Project",
+      "addProjectDesc": "Showcase your work and skills",
+      "getFeedback": "Request Feedback",
+      "getFeedbackDesc": "Get 360-degree peer reviews",
+      "keepLearning": "Keep Learning",
+      "keepLearningDesc": "Discover new courses and paths"
+    }
+  },
+  "postQuest": {
+    "whatsNext": "What's Next?",
+    "xpEarned": "XP Earned",
+    "achievementsUnlocked": "Achievements Unlocked!",
+    "viewAchievements": "View Achievements",
+    "goToDashboard": "Go to Dashboard",
+    "suggestions": {
+      "addProject": "Add Your First Project",
+      "addProjectDesc": "Upload your work and let AI extract skills",
+      "completeProfile": "Complete Your Profile",
+      "completeProfileDesc": "Add headline, bio, and social links",
+      "viewSkills": "View Your Skills",
+      "viewSkillsDesc": "See your verified skill profile",
+      "exploreCareers": "Explore Career Paths",
+      "exploreCareersDesc": "Discover careers that match your skills",
+      "browseJobs": "Browse Job Listings",
+      "browseJobsDesc": "Find opportunities at top companies",
+      "updateSkills": "Update Your Skills",
+      "updateSkillsDesc": "Add new skills you've learned",
+      "requestFeedback": "Request Peer Feedback",
+      "requestFeedbackDesc": "Get 360-degree validation",
+      "startLearning": "Start a Course",
+      "startLearningDesc": "Level up with curated learning",
+      "buildPortfolio": "Build Your Portfolio",
+      "buildPortfolioDesc": "Showcase your projects and achievements"
+    }
+  },
+  "completion": {
+    "congratulations": "Congratulations, Champion!",
+    "subtitle": "You've completed your quest journey",
+    "journeyComplete": "Journey Complete!",
+    "whatsNext": "Continue your adventure:",
+    "viewJourney": "View Quest Journey",
+    "stats": {
+      "totalXP": "Total XP",
+      "level": "Level",
+      "achievements": "Achievements",
+      "quests": "Quests"
+    },
+    "actions": {
+      "portfolio": "Build Portfolio",
+      "portfolioDesc": "Showcase your work",
+      "feedback": "Get Feedback",
+      "feedbackDesc": "Request peer reviews",
+      "careers": "Explore Careers",
+      "careersDesc": "Find your path"
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "title": "Command Center",
+  "greeting": {
+    "morning": "Greetings, Adventurer",
+    "afternoon": "Greetings, Adventurer",
+    "evening": "Greetings, Adventurer"
+  },
+  "stats": {
+    "projects": "Conquests",
+    "totalSkills": "Total Powers",
+    "verifiedSkills": "Proven Powers",
+    "projectsCompleted": "Conquests Completed",
+    "feedbackReceived": "Guild Reviews Received",
+    "pendingFeedback": "Pending Reviews",
+    "teamMatches": "Fellowship Matches",
+    "careerMatches": "Quest Matches",
+    "learningProgress": "Training Progress"
+  },
+  "sections": {
+    "recentActivity": "Quest Log",
+    "recentProjects": "Recent Conquests",
+    "quickActions": "Swift Actions",
+    "skillsOverview": "Powers Overview",
+    "skillProgress": "Power Verification Progress",
+    "upcomingDeadlines": "Approaching Trials",
+    "recommendations": "Recommended Paths",
+    "featuredOpportunities": "Featured Quests",
+    "pendingFeedback": "Pending Guild Reviews",
+    "careerMatches": "Quest Matches"
+  },
+  "actions": {
+    "addProject": "Add Conquest",
+    "addSkill": "Add Power",
+    "requestFeedback": "Seek Guild Wisdom",
+    "findTeam": "Find Fellowship",
+    "exploreJobs": "Hunt for Quests",
+    "viewLearning": "Enter Training",
+    "viewAll": "View all",
+    "view": "View",
+    "explore": "Explore",
+    "browse": "Browse"
+  },
+  "activity": {
+    "projectAdded": "Added conquest: {name}",
+    "skillVerified": "Power verified: {name}",
+    "feedbackReceived": "Received guild review from {name}",
+    "teamJoined": "Joined fellowship: {name}",
+    "applicationSent": "Accepted challenge: {name}",
+    "courseCompleted": "Mastered training: {name}"
+  },
+  "verification": {
+    "selfAssessed": "Self-Proclaimed",
+    "peerEndorsed": "Guild Endorsed",
+    "projectVerified": "Battle-Tested",
+    "aiAnalyzed": "AI Analyzed",
+    "assessmentPassed": "Trial Passed",
+    "certificationVerified": "Certified"
+  },
+  "status": {
+    "pending": "Pending",
+    "match": "{percent}% match"
+  },
+  "empty": {
+    "noActivity": "No recent quests",
+    "noDeadlines": "No approaching trials",
+    "noPendingFeedback": "No pending guild review requests",
+    "getStarted": "Begin your journey by adding your first conquest!"
+  },
+  "quest": {
+    "startJourney": "Start Your Journey",
+    "continueJourney": "Continue Your Journey",
+    "beginAdventure": "Begin Your 8-Quest Adventure",
+    "questProgress": "Quest Progress",
+    "startQuest": "Start Quest 1",
+    "continueQuest": "Continue Quest"
+  }
+}

@@ -1,0 +1,422 @@
+{
+  "navigation": {
+    "back": "Wstecz",
+    "next": "Dalej",
+    "continue": "Kontynuuj Questę"
+  },
+  "quest1": {
+    "title": "Tworzenie Postaci",
+    "game": {
+      "title": "Jakie gry cię przyciągają?",
+      "subtitle": "Twoje preferencje gier ujawniają Twój styl nauki",
+      "options": {
+        "sandbox": {
+          "label": "Gry Sandbox",
+          "description": "Minecraft, Factorio, Kerbal Space Program - budowanie i tworzenie"
+        },
+        "strategy": {
+          "label": "Gry Strategiczne",
+          "description": "Civilization, XCOM, Stellaris - planowanie i zarządzanie"
+        },
+        "adventure": {
+          "label": "Gry Przygodowe",
+          "description": "Zelda, Mass Effect, Outer Wilds - odkrywanie i eksploracja"
+        },
+        "esports": {
+          "label": "Gry Kompetytywne",
+          "description": "League of Legends, Valorant, Rocket League - rywalizacja i wygrywanie"
+        }
+      }
+    },
+    "domain": {
+      "title": "Jaka przyszłość cię ekscytuje?",
+      "subtitle": "Wybierz branżę, która rozbudza Twoją ciekawość",
+      "options": {
+        "space": {
+          "label": "Kosmos i Lotnictwo",
+          "description": "Satelity, rakiety, eksploracja kosmosu"
+        },
+        "energy": {
+          "label": "Energia i Zrównoważony Rozwój",
+          "description": "Baterie, fuzja, systemy odnawialnej energii"
+        },
+        "robotics": {
+          "label": "Robotyka i Automatyzacja",
+          "description": "Roboty, systemy AI, pojazdy autonomiczne"
+        },
+        "defense": {
+          "label": "Obronność i Bezpieczeństwo",
+          "description": "Lotnictwo, cyberbezpieczeństwo, technologie obronne"
+        }
+      }
+    },
+    "focus": {
+      "title": "Co chcesz zrozumieć?",
+      "subtitle": "Jak wolisz uczyć się o technologii?",
+      "options": {
+        "how_works": {
+          "label": "Jak To Działa",
+          "description": "Chcę zrozumieć fizykę i systemy"
+        },
+        "how_build": {
+          "label": "Jak To Zbudować",
+          "description": "Chcę nauczyć się tworzyć i produkować"
+        },
+        "who_makes": {
+          "label": "Kto To Tworzy",
+          "description": "Chcę poznać ludzi i firmy"
+        },
+        "who_operates": {
+          "label": "Kto To Obsługuje",
+          "description": "Chcę zrozumieć operacje i wdrożenia"
+        }
+      }
+    },
+    "reveal": {
+      "continue": "Rozpocznij Swoją Podróż",
+      "archetype": {
+        "BUILDER": {
+          "name": "Budowniczy",
+          "tagline": "Tworzenie to rozumienie",
+          "description": "Uczysz się przez działanie. Czy to kod, obwody czy statek kosmiczny - chcesz to zbudować własnymi rękami. Rozwijasz się w środowiskach sandbox, gdzie możesz eksperymentować i iterować."
+        },
+        "STRATEGIST": {
+          "name": "Strateg",
+          "tagline": "Planowanie to wygrywanie",
+          "description": "Widzisz szerszy obraz. Złożone systemy, alokacja zasobów, długoterminowe planowanie - to cię ekscytuje. Wyróżniasz się, gdy możesz myśleć kilka ruchów naprzód."
+        },
+        "EXPLORER": {
+          "name": "Odkrywca",
+          "tagline": "Odkrycie jest celem",
+          "description": "Nieznane cię przyciąga. Czy to niezbadane terytorium, nowe technologie czy nietestowane pomysły - kieruje tobą ciekawość i dreszcz odkrycia."
+        },
+        "COMPETITOR": {
+          "name": "Konkurent",
+          "tagline": "Doskonałość przez wyzwanie",
+          "description": "Rosjesz do rywalizacji. Benchmarki, rankingi i mierzalne cele napędzają cię do bycia najlepszym. Rozwijasz się pod presją i uwielbiasz optymalizować."
+        }
+      },
+      "traits": {
+        "hands-on": "Praktyczny",
+        "creative": "Kreatywny",
+        "patient": "Cierpliwy",
+        "detail-oriented": "Dbający o szczegóły",
+        "analytical": "Analityczny",
+        "systematic": "Systematyczny",
+        "forward-thinking": "Przewidujący",
+        "calculated": "Kalkulujący",
+        "curious": "Ciekawy",
+        "adventurous": "Odważny",
+        "open-minded": "Otwarty",
+        "adaptable": "Elastyczny",
+        "driven": "Zdeterminowany",
+        "focused": "Skupiony",
+        "resilient": "Odporny",
+        "performance-oriented": "Zorientowany na wyniki"
+      }
+    }
+  },
+  "quest2": {
+    "title": "Epicki Artefakt",
+    "subtitle": "Oto technologia, która definiuje Twoją przyszłość",
+    "specs": "Specyfikacje",
+    "watchVideo": "Obejrzyj Film",
+    "learnMore": "Dowiedz Się Więcej",
+    "funFacts": "Ciekawostki",
+    "yourMatch": "Twoje Dopasowanie"
+  },
+  "quest3": {
+    "title": "Głębokie Zanurzenie",
+    "subtitle": "Wybierz swoją ścieżkę do wiedzy",
+    "paths": {
+      "how_works": {
+        "label": "Jak To Działa",
+        "description": "Zrozum fizykę i inżynierię"
+      },
+      "how_build": {
+        "label": "Jak To Jest Budowane",
+        "description": "Poznaj proces produkcji"
+      },
+      "who_makes": {
+        "label": "Kto To Tworzy",
+        "description": "Poznaj ludzi i role"
+      },
+      "who_operates": {
+        "label": "Kto To Obsługuje",
+        "description": "Operacje i wdrożenia"
+      }
+    },
+    "quiz": {
+      "title": "Sprawdzenie Wiedzy",
+      "correct": "Poprawnie!",
+      "incorrect": "Nie do końca",
+      "explanation": "Wyjaśnienie"
+    }
+  },
+  "quest4": {
+    "title": "Gildie",
+    "subtitle": "Odkryj firmy z całego świata",
+    "regions": {
+      "poland": "Polska",
+      "germany": "Niemcy",
+      "ukraine": "Ukraina",
+      "usa": "Stany Zjednoczone"
+    },
+    "filters": {
+      "all": "Wszystkie Branże",
+      "space": "Kosmos",
+      "energy": "Energia",
+      "robotics": "Robotyka",
+      "defense": "Obronność"
+    }
+  },
+  "quest5": {
+    "title": "Polowanie na Talenty",
+    "subtitle": "Odkryj kariery i możliwości",
+    "salary": "Zakres Wynagrodzenia",
+    "demand": "Zapotrzebowanie Rynkowe",
+    "growth": "Tempo Wzrostu",
+    "skills": "Wymagane Umiejętności",
+    "openPositions": "otwartych stanowisk"
+  },
+  "quest6": {
+    "title": "Mądrość Liderów",
+    "subtitle": "Ucz się od liderów branży",
+    "assessment": {
+      "title": "Ocena Umiejętności Miękkich",
+      "description": "Odkryj swoje mocne strony przez pytania sytuacyjne"
+    },
+    "softSkills": {
+      "growth-mindset": "Nastawienie na Rozwój",
+      "ownership": "Odpowiedzialność",
+      "adaptability": "Adaptacyjność",
+      "collaboration": "Współpraca",
+      "communication": "Komunikacja",
+      "problem-solving": "Rozwiązywanie Problemów",
+      "curiosity": "Ciekawość",
+      "resilience": "Odporność"
+    }
+  },
+  "quest7": {
+    "title": "Kuźnia Umiejętności",
+    "subtitle": "Rozwijaj się dzięki wyselekcjonowanym ścieżkom nauki",
+    "startCourse": "Rozpocznij Kurs",
+    "viewCourse": "Zobacz Kurs",
+    "estimatedTime": "Szacowany czas: {hours} godzin",
+    "certificate": "Certyfikat"
+  },
+  "quest8": {
+    "title": "Sala Gildii",
+    "subtitle": "Łącz się, buduj i rywalizuj",
+    "complete": "Ukończ Questę",
+    "tabs": {
+      "hackathons": "Hackatony",
+      "community": "Społeczność",
+      "portfolio": "Portfolio"
+    },
+    "hackathons": {
+      "sponsoredBy": "Sponsorowane przez {company}",
+      "members": "członków",
+      "upcoming": "Nadchodzące",
+      "active": "Aktywne",
+      "completed": "Zakończone",
+      "join": "Dołącz do Hackatonu",
+      "joined": "Dołączono",
+      "empty": "Brak dostępnych hackatonów. Wróć wkrótce!",
+      "browseAll": "Przeglądaj wszystkie {count} hackatony"
+    },
+    "community": {
+      "members": "członków",
+      "empty": "Brak dostępnych kanałów społecznościowych."
+    },
+    "portfolio": {
+      "title": "Zbuduj Swoje Portfolio",
+      "description": "Przesyłaj projekty, otrzymuj recenzje i zgłaszaj się do hackatonów, aby zdobywać XP i pokazać swoje umiejętności.",
+      "upload": "Prześlij Projekt",
+      "review": "Otrzymaj Recenzję",
+      "submit": "Zgłoś do Hackatonu",
+      "goToPortfolio": "Przejdź do Portfolio"
+    },
+    "progress": {
+      "hackathons": "Dołączone Hackatony",
+      "guilds": "Dołączone Gildie",
+      "xpEarned": "Zdobyte XP"
+    }
+  },
+  "xp": {
+    "earned": "+{amount} XP",
+    "total": "{amount} XP",
+    "level": "Poziom {level}"
+  },
+  "progress": {
+    "questComplete": "Questa Ukończona!",
+    "nextQuest": "Odblokowano Następną Questę"
+  },
+  "flavor": {
+    "questIntro": {
+      "1": {
+        "title": "Przebudzenie Się Rozpoczyna",
+        "intro": "Każda legenda zaczyna się od jednego wyboru. Kim staniesz się w kuźni technologii jutra?",
+        "action": "Wykuj Swoją Tożsamość"
+      },
+      "2": {
+        "title": "Oto Artefakt",
+        "intro": "Przed tobą stoi cud ludzkiej pomysłowości. Niech jego moc rozpali twoją wyobraźnię...",
+        "action": "Ujrzyj Technologię"
+      },
+      "3": {
+        "title": "W Głębiny",
+        "intro": "Wiedza czeka na tych wystarczająco odważnych, by jej szukać. Wykuj zrozumienie w ogniu nauki...",
+        "action": "Rozpocznij Studia"
+      },
+      "4": {
+        "title": "Szukaj Gildii",
+        "intro": "Na całym świecie wielkie gildie czekają na bohaterów. Dokąd zaprowadzi cię podróż?",
+        "action": "Odkryj Gildie"
+      },
+      "5": {
+        "title": "Łowy Się Zaczynają",
+        "intro": "Ścieżka do mistrzostwa się ujawnia. Jakie skarby czekają na poszukiwaczy?",
+        "action": "Wyśledź Swoje Przeznaczenie"
+      },
+      "6": {
+        "title": "Mądrość Starszych",
+        "intro": "Najwięksi liderzy dzielą się swoimi sekretami. Słuchaj uważnie, młody bohaterze...",
+        "action": "Przyjmij Mądrość"
+      },
+      "7": {
+        "title": "Kuźnia Czeka",
+        "intro": "Twoje umiejętności to surowa ruda. Kuźnia zahartuje je w legendarne zdolności...",
+        "action": "Wejdź do Kuźni"
+      },
+      "8": {
+        "title": "Wstąp do Sali",
+        "intro": "Udowodniłeś swoją wartość. Teraz dołącz do swoich towarzyszy w Sali Gildii...",
+        "action": "Zajmij Swoje Miejsce"
+      }
+    },
+    "questComplete": {
+      "1": "Twoja tożsamość jest wykuta. Przygoda się zaczyna!",
+      "2": "Sekrety artefaktu zostały ujawnione. Moc czeka!",
+      "3": "Wiedza opanowana. Twój umysł się wyostrza!",
+      "4": "Gildie rozpoznają twój potencjał!",
+      "5": "Łowy ujawniają twoją ścieżkę naprzód!",
+      "6": "Mądrość starszych wzmacnia twoją determinację!",
+      "7": "Twoje umiejętności są zahartowane i gotowe!",
+      "8": "Bohaterze! Twoja legenda jest zapisana!"
+    },
+    "paths": {
+      "how_works": {
+        "rpgTitle": "Wiedza Tajemna",
+        "rpgDesc": "Opanuj fizykę i systemy napędzające tę technologię..."
+      },
+      "how_build": {
+        "rpgTitle": "Ścieżka Rzemieślnika",
+        "rpgDesc": "Poznaj święte sztuki inżynierii i tworzenia..."
+      },
+      "who_makes": {
+        "rpgTitle": "Mistrzowie Gildii",
+        "rpgDesc": "Odkryj legendarne firmy i role..."
+      },
+      "who_operates": {
+        "rpgTitle": "Operatorzy",
+        "rpgDesc": "Opanuj sztuki wdrażania i obsługi..."
+      }
+    },
+    "quiz": {
+      "trialTitle": "Próba Umiejętności",
+      "trialDesc": "Sprawdź swoje zrozumienie, uczniu. Odpowiadaj mądrze, aby zdobyć XP.",
+      "beginTrial": "Rozpocznij Próbę",
+      "correct": "Świetna robota, uczniu!",
+      "incorrect": "Nie do końca. Przestudiuj wyjaśnienie."
+    },
+    "xpMessages": {
+      "quizCorrect": "Wiedza zdobyta!",
+      "questComplete": "Questa opanowana!",
+      "pathComplete": "Ścieżka wykuta!",
+      "levelUp": "AWANS!"
+    },
+    "levelUp": {
+      "title": "AWANS!",
+      "subtitle": "Twoja moc rośnie, Bohaterze!",
+      "message": "Nowe wyzwania czekają!"
+    }
+  },
+  "hub": {
+    "title": "Twoja Podróż Questowa",
+    "subtitle": "Kontynuuj przygodę przez 8 questów",
+    "journeyComplete": "Ukończyłeś wszystkie 8 questów!",
+    "currentQuest": "Aktualny Quest",
+    "continueJourney": "Kontynuuj Podróż",
+    "champion": "Gratulacje, Bohaterze!",
+    "championMessage": "Ukończyłeś wszystkie 8 questów. Twoja legenda została wykuta!",
+    "buildPortfolio": "Zbuduj Portfolio",
+    "exploreCareers": "Odkryj Kariery",
+    "questJourney": "Podróż Questowa",
+    "questAchievements": "Osiągnięcia Questowe",
+    "viewAll": "Zobacz Wszystkie",
+    "nextSteps": "Kontynuuj Swoją Przygodę",
+    "backToDashboard": "Powrót do Panelu",
+    "stats": {
+      "questsCompleted": "Ukończone Questy",
+      "questXP": "XP z Questów",
+      "currentLevel": "Aktualny Poziom"
+    },
+    "activities": {
+      "addProject": "Dodaj Projekt",
+      "addProjectDesc": "Pokaż swoją pracę i umiejętności",
+      "getFeedback": "Poproś o Feedback",
+      "getFeedbackDesc": "Otrzymaj recenzje 360 stopni",
+      "keepLearning": "Ucz się Dalej",
+      "keepLearningDesc": "Odkryj nowe kursy i ścieżki"
+    }
+  },
+  "postQuest": {
+    "whatsNext": "Co Dalej?",
+    "xpEarned": "Zdobyte XP",
+    "achievementsUnlocked": "Odblokowane Osiągnięcia!",
+    "viewAchievements": "Zobacz Osiągnięcia",
+    "goToDashboard": "Przejdź do Panelu",
+    "suggestions": {
+      "addProject": "Dodaj Swój Pierwszy Projekt",
+      "addProjectDesc": "Prześlij pracę i pozwól AI wydobyć umiejętności",
+      "completeProfile": "Uzupełnij Profil",
+      "completeProfileDesc": "Dodaj nagłówek, bio i linki społecznościowe",
+      "viewSkills": "Zobacz Swoje Umiejętności",
+      "viewSkillsDesc": "Sprawdź zweryfikowany profil umiejętności",
+      "exploreCareers": "Odkryj Ścieżki Kariery",
+      "exploreCareersDesc": "Znajdź kariery pasujące do twoich umiejętności",
+      "browseJobs": "Przeglądaj Oferty Pracy",
+      "browseJobsDesc": "Znajdź możliwości w najlepszych firmach",
+      "updateSkills": "Zaktualizuj Umiejętności",
+      "updateSkillsDesc": "Dodaj nowe umiejętności których się nauczyłeś",
+      "requestFeedback": "Poproś o Feedback",
+      "requestFeedbackDesc": "Otrzymaj walidację 360 stopni",
+      "startLearning": "Rozpocznij Kurs",
+      "startLearningDesc": "Rozwijaj się z wyselekcjonowaną nauką",
+      "buildPortfolio": "Zbuduj Portfolio",
+      "buildPortfolioDesc": "Pokaż swoje projekty i osiągnięcia"
+    }
+  },
+  "completion": {
+    "congratulations": "Gratulacje, Bohaterze!",
+    "subtitle": "Ukończyłeś swoją podróż questową",
+    "journeyComplete": "Podróż Ukończona!",
+    "whatsNext": "Kontynuuj swoją przygodę:",
+    "viewJourney": "Zobacz Podróż Questową",
+    "stats": {
+      "totalXP": "Całkowite XP",
+      "level": "Poziom",
+      "achievements": "Osiągnięcia",
+      "quests": "Questy"
+    },
+    "actions": {
+      "portfolio": "Zbuduj Portfolio",
+      "portfolioDesc": "Pokaż swoją pracę",
+      "feedback": "Otrzymaj Feedback",
+      "feedbackDesc": "Poproś o recenzje",
+      "careers": "Odkryj Kariery",
+      "careersDesc": "Znajdź swoją ścieżkę"
+    }
+  }
+}

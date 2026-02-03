@@ -1,0 +1,224 @@
+{
+  "nav": {
+    "achievements": "Osiagniecia"
+  },
+  "page": {
+    "title": "Osiagniecia",
+    "subtitle": "Sledz swoje postepy i odblokowuj nagrody",
+    "unlocked": "odblokowane"
+  },
+  "unlocked": {
+    "title": "Osiagniecie Odblokowane",
+    "continue": "Kontynuuj",
+    "viewAll": "Zobacz Wszystkie"
+  },
+  "showcase": {
+    "title": "Osiagniecia",
+    "viewAll": "Zobacz Wszystkie",
+    "progress": "Ogolny Postep",
+    "recentUnlocks": "Ostatnie Odblokowane",
+    "inProgress": "W Trakcie",
+    "empty": "Ukoncz questy, aby zdobyc osiagniecia",
+    "startQuest": "Rozpocznij Quest"
+  },
+  "gallery": {
+    "totalProgress": "Calkowity Postep",
+    "byRarity": "Wg Rzadkosci",
+    "recentUnlocks": "Ostatnie Odblokowane",
+    "noUnlocks": "Brak osiagniec",
+    "filter": "Filtr",
+    "unlocked": "odblokowane"
+  },
+  "filter": {
+    "all": "Wszystkie",
+    "unlocked": "Odblokowane",
+    "locked": "Zablokowane",
+    "inprogress": "W Trakcie"
+  },
+  "card": {
+    "progress": "Postep",
+    "secret": "Tajne Osiagniecie"
+  },
+  "rarity": {
+    "common": "Zwykle",
+    "uncommon": "Niezwykle",
+    "rare": "Rzadkie",
+    "epic": "Epickie",
+    "legendary": "Legendarne"
+  },
+  "categories": {
+    "questmaster": "Mistrz Questow",
+    "xplegend": "Legenda XP",
+    "knowledgeseeker": "Poszukiwacz Wiedzy",
+    "portfolioartisan": "Artysta Portfolio",
+    "communitychampion": "Czempion Spolecznosci",
+    "archetypespecialist": "Specjalista Archetypu",
+    "pioneer": "Pionier"
+  },
+  "achievements": {
+    "quest_first_step": {
+      "name": "Pierwszy Krok",
+      "description": "Ukoncz swoj pierwszy quest i rozpocznij przygode w FORGE-Z"
+    },
+    "quest_artifact_seeker": {
+      "name": "Poszukiwacz Artefaktow",
+      "description": "Odkryj swoj pierwszy epicki artefakt technologiczny"
+    },
+    "quest_deep_diver": {
+      "name": "Gleboki Nurek",
+      "description": "Ukoncz quest Deep Dive i odblokuj wiedze"
+    },
+    "quest_guild_explorer": {
+      "name": "Odkrywca Gildii",
+      "description": "Poznaj firmy i gildie z roznych regionow"
+    },
+    "quest_talent_hunter": {
+      "name": "Lowca Talentow",
+      "description": "Ukoncz Polowanie na Talenty i odkryj role kariery"
+    },
+    "quest_wisdom_seeker": {
+      "name": "Poszukiwacz Madrosci",
+      "description": "Ucz sie od liderow i ocen swoje umiejetnosci miekkie"
+    },
+    "quest_skill_forger": {
+      "name": "Kowal Umiejetnosci",
+      "description": "Odwiedz Kuznie Umiejetnosci i rozpocznij sciezke nauki"
+    },
+    "quest_champion": {
+      "name": "Czempion Questow",
+      "description": "Ukoncz wszystkie 8 questow i opanuj przygode FORGE-Z"
+    },
+    "xp_first_hundred": {
+      "name": "Pierwsza Setka",
+      "description": "Zdobadz swoje pierwsze 100 XP"
+    },
+    "xp_rising_star": {
+      "name": "Wschodząca Gwiazda",
+      "description": "Osiagnij Poziom 2 i udowodnij swoje zaangazowanie"
+    },
+    "xp_adventurer": {
+      "name": "Poszukiwacz Przygod",
+      "description": "Osiagnij Poziom 5 i ugruntuj swoja pozycje"
+    },
+    "xp_veteran": {
+      "name": "Weteran",
+      "description": "Osiagnij Poziom 10 i stań się doświadczonym odkrywcą"
+    },
+    "xp_elite": {
+      "name": "Elita",
+      "description": "Osiagnij Poziom 20 i dolacz do elitarnych szeregów"
+    },
+    "xp_master": {
+      "name": "Mistrz",
+      "description": "Osiagnij Poziom 35 i osiagnij mistrzostwo"
+    },
+    "xp_grandmaster": {
+      "name": "Arcymistrz",
+      "description": "Osiagnij legendarny Poziom 50"
+    },
+    "know_first_correct": {
+      "name": "Szybki Uczeń",
+      "description": "Odpowiedz poprawnie na pierwsze pytanie quizu"
+    },
+    "know_quiz_ace": {
+      "name": "As Quizow",
+      "description": "Odpowiedz poprawnie na 5 pytań quizu"
+    },
+    "know_quiz_master": {
+      "name": "Mistrz Quizow",
+      "description": "Odpowiedz poprawnie na 20 pytań quizu"
+    },
+    "know_deep_dive_first": {
+      "name": "Gleboka Wiedza",
+      "description": "Ukoncz swoja pierwsza tresć Deep Dive"
+    },
+    "know_course_starter": {
+      "name": "Poczatkujacy Kursant",
+      "description": "Rozpocznij swoj pierwszy kurs"
+    },
+    "know_scholar": {
+      "name": "Uczony",
+      "description": "Ukoncz 5 sciezek Deep Dive"
+    },
+    "port_first_project": {
+      "name": "Tworca",
+      "description": "Dodaj swoj pierwszy projekt do portfolio"
+    },
+    "port_three_projects": {
+      "name": "Budowniczy",
+      "description": "Zbuduj portfolio z 3 projektami"
+    },
+    "port_five_projects": {
+      "name": "Rzemieślnik",
+      "description": "Rozszerz portfolio do 5 projektow"
+    },
+    "port_ten_projects": {
+      "name": "Mistrz Rzemiosla",
+      "description": "Zaprezentuj 10 projektow w portfolio"
+    },
+    "port_skill_collector": {
+      "name": "Kolekcjoner Umiejetnosci",
+      "description": "Dodaj 10 roznych umiejetnosci do profilu"
+    },
+    "port_master_artisan": {
+      "name": "Legenda Portfolio",
+      "description": "Posiadaj 15+ projektow z 25+ umiejetnosciami"
+    },
+    "comm_first_feedback": {
+      "name": "Pomocny Kolega",
+      "description": "Udziel swojej pierwszej recenzji"
+    },
+    "comm_feedback_giver": {
+      "name": "Czempion Feedbacku",
+      "description": "Udziel 5 recenzji"
+    },
+    "comm_hackathon_joiner": {
+      "name": "Debiutant Hackatonu",
+      "description": "Dolacz do pierwszego hackatonu"
+    },
+    "comm_hackathon_submitter": {
+      "name": "Bohater Hackatonu",
+      "description": "Zglos swoj pierwszy projekt na hackaton"
+    },
+    "comm_guild_member": {
+      "name": "Czlonek Gildii",
+      "description": "Dolacz do spolecznosci Discord"
+    },
+    "comm_mentor": {
+      "name": "Mentor",
+      "description": "Udziel 10 recenzji i pomoz innym rosnąć"
+    },
+    "arch_discovered": {
+      "name": "Tozsamosc Odnaleziona",
+      "description": "Odkryj swoj archetyp kariery"
+    },
+    "arch_builder": {
+      "name": "Budowniczy",
+      "description": "Przyjmij archetyp Budowniczego - tworzenie to zrozumienie"
+    },
+    "arch_strategist": {
+      "name": "Strateg",
+      "description": "Przyjmij archetyp Stratega - planowanie to zwyciestwo"
+    },
+    "arch_explorer": {
+      "name": "Odkrywca",
+      "description": "Przyjmij archetyp Odkrywcy - odkrywanie to cel"
+    },
+    "pioneer_early_adopter": {
+      "name": "Wczesny Adopter",
+      "description": "Bądź jednym z pierwszych w FORGE-Z"
+    },
+    "pioneer_company_explorer": {
+      "name": "Zwiadowca Branży",
+      "description": "Poznaj 10 roznych firm"
+    },
+    "pioneer_role_explorer": {
+      "name": "Odkrywca Karier",
+      "description": "Poznaj 10 roznych rol kariery"
+    }
+  },
+  "toast": {
+    "unlocked": "Osiągnięcie Odblokowane!",
+    "xpEarned": "+{xp} XP"
+  }
+}

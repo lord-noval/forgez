@@ -1,0 +1,90 @@
+{
+  "generic": {
+    "unknown": "Your quest hit an obstacle. Please try again.",
+    "networkError": "Connection to the realm failed. Check your network.",
+    "serverError": "The realm's servers are struggling. Please try again later.",
+    "notFound": "The requested artifact was not found.",
+    "unauthorized": "You lack the permissions for this action.",
+    "forbidden": "Access denied to this area.",
+    "timeout": "Request timed out. Please try again.",
+    "maintenance": "The realm is under maintenance. Please check back later."
+  },
+  "validation": {
+    "required": "This field is required",
+    "minLength": "Must be at least {min} characters",
+    "maxLength": "Must be at most {max} characters",
+    "email": "Please enter a valid email address",
+    "url": "Please enter a valid URL",
+    "number": "Please enter a valid number",
+    "integer": "Please enter a whole number",
+    "positive": "Must be a positive number",
+    "date": "Please enter a valid date",
+    "futureDate": "Date must be in the future",
+    "pastDate": "Date must be in the past",
+    "match": "Fields do not match",
+    "unique": "This value is already taken",
+    "format": "Invalid format"
+  },
+  "auth": {
+    "invalidCredentials": "Invalid email or password",
+    "emailNotVerified": "Please verify your email first",
+    "accountLocked": "Hero account locked. Contact support.",
+    "accountDisabled": "Hero account has been disabled",
+    "sessionExpired": "Your session has expired. Please enter the realm again.",
+    "weakPassword": "Password is too weak. Include uppercase, lowercase, numbers.",
+    "emailInUse": "This email is already registered",
+    "usernameInUse": "This hero name is already taken"
+  },
+  "upload": {
+    "fileTooLarge": "File is too large. Maximum size is {maxSize}MB.",
+    "invalidType": "Invalid file type. Allowed: {types}",
+    "uploadFailed": "Upload failed. Please try again.",
+    "maxFiles": "Maximum {max} files allowed",
+    "emptyFile": "File is empty"
+  },
+  "api": {
+    "projectNotFound": "Conquest not found",
+    "skillNotFound": "Power not found",
+    "teamNotFound": "Fellowship not found",
+    "jobNotFound": "Quest not found",
+    "userNotFound": "Hero not found",
+    "feedbackNotFound": "Wisdom request not found",
+    "alreadyExists": "This artifact already exists",
+    "cannotDelete": "Cannot delete this artifact",
+    "cannotUpdate": "Cannot update this artifact",
+    "limitReached": "You've reached the limit for this action"
+  },
+  "permission": {
+    "notOwner": "You don't have permission to modify this",
+    "notMember": "You are not a member of this fellowship",
+    "notAdmin": "Officer access required",
+    "featureDisabled": "This feature is currently disabled",
+    "upgradRequired": "Upgrade your account to access this feature"
+  },
+  "form": {
+    "invalidForm": "Please fix the errors in the form",
+    "submitFailed": "Failed to submit. Please try again.",
+    "saveFailed": "Failed to save. Please try again."
+  },
+  "actions": {
+    "retry": "Retry",
+    "goBack": "Go Back",
+    "goHome": "Return to Command Center",
+    "contactSupport": "Contact Support",
+    "refresh": "Refresh Page"
+  },
+  "pages": {
+    "notFound": {
+      "title": "Realm Not Found",
+      "description": "The realm you're seeking doesn't exist or has been moved."
+    },
+    "serverError": {
+      "title": "Server Error",
+      "description": "We're having some technical difficulties. Please try again later."
+    },
+    "offline": {
+      "title": "You're Offline",
+      "description": "Please check your connection to the realm and try again."
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "title": "Centrum Dowodzenia",
+  "greeting": {
+    "morning": "Pozdrowienia, Poszukiwaczu",
+    "afternoon": "Pozdrowienia, Poszukiwaczu",
+    "evening": "Pozdrowienia, Poszukiwaczu"
+  },
+  "stats": {
+    "projects": "Podboje",
+    "totalSkills": "Wszystkie Moce",
+    "verifiedSkills": "Udowodnione Moce",
+    "projectsCompleted": "Ukończone Podboje",
+    "feedbackReceived": "Otrzymane Recenzje Gildii",
+    "pendingFeedback": "Oczekujące Recenzje",
+    "teamMatches": "Dopasowania Drużyny",
+    "careerMatches": "Dopasowania Questów",
+    "learningProgress": "Postęp Treningu"
+  },
+  "sections": {
+    "recentActivity": "Dziennik Questów",
+    "recentProjects": "Ostatnie Podboje",
+    "quickActions": "Szybkie Akcje",
+    "skillsOverview": "Przegląd Mocy",
+    "skillProgress": "Postęp Weryfikacji Mocy",
+    "upcomingDeadlines": "Nadchodzące Wyzwania",
+    "recommendations": "Polecane Ścieżki",
+    "featuredOpportunities": "Wyróżnione Questy",
+    "pendingFeedback": "Oczekujące Recenzje Gildii",
+    "careerMatches": "Dopasowania Questów"
+  },
+  "actions": {
+    "addProject": "Dodaj Podbój",
+    "addSkill": "Dodaj Moc",
+    "requestFeedback": "Szukaj Mądrości Gildii",
+    "findTeam": "Znajdź Drużynę",
+    "exploreJobs": "Poluj na Questy",
+    "viewLearning": "Wejdź na Trening",
+    "viewAll": "Zobacz wszystko",
+    "view": "Zobacz",
+    "explore": "Odkrywaj",
+    "browse": "Przeglądaj"
+  },
+  "activity": {
+    "projectAdded": "Dodano podbój: {name}",
+    "skillVerified": "Moc zweryfikowana: {name}",
+    "feedbackReceived": "Otrzymano recenzję gildii od {name}",
+    "teamJoined": "Dołączono do drużyny: {name}",
+    "applicationSent": "Przyjęto wyzwanie: {name}",
+    "courseCompleted": "Opanowano trening: {name}"
+  },
+  "verification": {
+    "selfAssessed": "Samozadeklarowana",
+    "peerEndorsed": "Potwierdzona przez Gildię",
+    "projectVerified": "Sprawdzona w Boju",
+    "aiAnalyzed": "Analiza AI",
+    "assessmentPassed": "Próba Zaliczona",
+    "certificationVerified": "Certyfikowana"
+  },
+  "status": {
+    "pending": "Oczekujące",
+    "match": "{percent}% dopasowania"
+  },
+  "empty": {
+    "noActivity": "Brak ostatnich questów",
+    "noDeadlines": "Brak nadchodzących wyzwań",
+    "noPendingFeedback": "Brak oczekujących próśb o recenzję gildii",
+    "getStarted": "Rozpocznij podróż dodając pierwszy podbój!"
+  },
+  "quest": {
+    "startJourney": "Rozpocznij Podróż",
+    "continueJourney": "Kontynuuj Podróż",
+    "beginAdventure": "Rozpocznij 8-Questową Przygodę",
+    "questProgress": "Postęp Questów",
+    "startQuest": "Rozpocznij Quest 1",
+    "continueQuest": "Kontynuuj Quest"
+  }
+}

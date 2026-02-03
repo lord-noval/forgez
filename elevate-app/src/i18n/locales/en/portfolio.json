@@ -1,0 +1,200 @@
+{
+  "title": "Conquest Gallery",
+  "subtitle": "Display your conquests and extracted powers",
+  "projectsCount": "{count, plural, one {# conquest} other {# conquests}}",
+  "sections": {
+    "myProjects": "My Conquests",
+    "publicGallery": "Hero Showcase",
+    "sharedWithMe": "Shared With Me"
+  },
+  "project": {
+    "title": "Conquest Title",
+    "description": "Description",
+    "type": "Conquest Type",
+    "visibility": "Visibility",
+    "skills": "Extracted Powers",
+    "artifacts": "Artifacts",
+    "createdAt": "Created",
+    "updatedAt": "Last Updated"
+  },
+  "detail": {
+    "backTo": "Back to {page}",
+    "demoBanner": {
+      "title": "Demo Conquest Preview",
+      "description": "This is an example conquest showcasing how your gallery will look in production."
+    },
+    "about": "About",
+    "projectFiles": "Conquest Files",
+    "filesCount": "{count, plural, one {# file} other {# files}}",
+    "noFilesYet": "No files uploaded yet",
+    "analyzed": "Analyzed",
+    "extractedSkills": "Extracted Powers",
+    "verified": "Proven",
+    "highlights": "Highlights",
+    "teamMembers": "Guild Members",
+    "keyMetrics": "Key Metrics",
+    "projectInfo": "Conquest Info",
+    "links": "Links",
+    "viewProject": "View Conquest",
+    "viewRepository": "View Repository",
+    "timeline": "Timeline",
+    "started": "Started {date}",
+    "completed": "Conquered {date}",
+    "ongoing": "In Progress",
+    "created": "Created {date}",
+    "tags": "Tags",
+    "featured": "Featured",
+    "views": "{count} views",
+    "teamSize": "Guild Size",
+    "person": "{count, plural, one {# hero} other {# heroes}}",
+    "totalViews": "Total Views",
+    "files": "Files",
+    "skillsDetected": "Powers Detected",
+    "share": "Share",
+    "edit": "Edit",
+    "deleteConfirm": "Are you sure you want to delete this conquest? This action cannot be undone.",
+    "cancel": "Cancel",
+    "delete": "Delete"
+  },
+  "types": {
+    "code": "Code",
+    "document": "Document",
+    "video": "Video",
+    "audio": "Audio",
+    "design": "Design",
+    "model_3d": "3D Model",
+    "presentation": "Presentation",
+    "certification": "Certification",
+    "other": "Other"
+  },
+  "visibility": {
+    "private": "Hidden",
+    "public": "Public",
+    "unlisted": "Secret Link"
+  },
+  "actions": {
+    "newProject": "New Conquest",
+    "editProject": "Edit Conquest",
+    "deleteProject": "Delete Conquest",
+    "shareProject": "Share Conquest",
+    "duplicateProject": "Duplicate Conquest",
+    "addArtifact": "Add Artifact",
+    "extractSkills": "Analyze Powers",
+    "viewDetails": "View Details"
+  },
+  "upload": {
+    "title": "Upload Files",
+    "dragDrop": "Drag and drop files here",
+    "orBrowse": "or browse to upload",
+    "supportedTypes": "Supported: Code, Documents, Media files",
+    "maxSize": "Max file size: {size}MB",
+    "uploading": "Uploading...",
+    "processing": "Processing...",
+    "success": "Upload complete!",
+    "error": "Upload failed"
+  },
+  "gallery": {
+    "searchPlaceholder": "Search conquests...",
+    "filterByType": "Filter by type",
+    "filterBySkill": "Filter by power",
+    "sortBy": "Sort by",
+    "sortOptions": {
+      "newest": "Newest",
+      "oldest": "Oldest",
+      "mostSkills": "Most Powers",
+      "alphabetical": "A-Z"
+    }
+  },
+  "share": {
+    "title": "Share Conquest",
+    "description": "Share your conquest on social media",
+    "copyLink": "Copy Link",
+    "linkCopied": "Link copied!",
+    "platforms": {
+      "twitter": "Twitter",
+      "linkedin": "LinkedIn",
+      "facebook": "Facebook",
+      "discord": "Discord",
+      "reddit": "Reddit",
+      "whatsapp": "WhatsApp"
+    }
+  },
+  "empty": {
+    "noProjects": "No conquests yet",
+    "startCreating": "Begin by uploading your first conquest",
+    "noResults": "No conquests match your search"
+  },
+  "delete": {
+    "title": "Delete Conquest",
+    "confirm": "Are you sure you want to delete this conquest?",
+    "warning": "This action cannot be undone."
+  },
+  "editor": {
+    "additionalDetails": "Additional Details",
+    "additionalDetailsDescription": "Add highlights, metrics, and guild information to showcase your conquest.",
+    "teamSize": "Guild Size",
+    "teamSizeHint": "Number of heroes who worked on this conquest",
+    "highlights": "Highlights",
+    "highlightPlaceholder": "e.g., Won first place at hackathon",
+    "highlightsCount": "highlights",
+    "keyMetrics": "Key Metrics",
+    "metricLabel": "Metric name",
+    "metricValue": "Value",
+    "metricsCount": "metrics",
+    "collaborators": "Guild Members",
+    "collaboratorName": "Name",
+    "collaboratorRole": "Role",
+    "collaboratorsCount": "allies"
+  },
+  "create": {
+    "title": "Create New Conquest",
+    "subtitle": "Add a new conquest to your gallery. You can upload files after creating the conquest.",
+    "backToPortfolio": "Back to Gallery",
+    "sections": {
+      "projectType": "Conquest Type",
+      "basicInfo": "Basic Information",
+      "tags": "Tags",
+      "links": "Links",
+      "timeline": "Timeline",
+      "visibility": "Visibility"
+    },
+    "typeDescriptions": {
+      "code": "Software projects, scripts, or repositories",
+      "document": "Reports, papers, or written work",
+      "video": "Video content or recordings",
+      "audio": "Podcasts, music, or audio files",
+      "design": "Visual designs or artwork",
+      "model_3d": "CAD files or 3D models",
+      "presentation": "Slides or presentations",
+      "certification": "Certificates or credentials",
+      "other": "Other types of conquests"
+    },
+    "fields": {
+      "title": "Title",
+      "titlePlaceholder": "My Epic Conquest",
+      "description": "Description",
+      "descriptionPlaceholder": "Describe your conquest...",
+      "externalUrl": "External URL",
+      "externalUrlPlaceholder": "https://example.com/my-conquest",
+      "repositoryUrl": "Repository URL",
+      "repositoryUrlPlaceholder": "https://github.com/user/repo",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "datePlaceholder": "dd/mm/yyyy"
+    },
+    "tags": {
+      "addTag": "Add a tag",
+      "count": "{count}/10 tags"
+    },
+    "visibilityDescriptions": {
+      "public": "Anyone can view",
+      "unlisted": "Only with link",
+      "private": "Only you can view"
+    },
+    "required": "Required",
+    "submit": "Create Conquest",
+    "creating": "Creating...",
+    "saveChanges": "Save Changes",
+    "ongoingProject": "This conquest is ongoing"
+  }
+}

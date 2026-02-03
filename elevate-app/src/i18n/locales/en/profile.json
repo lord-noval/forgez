@@ -1,0 +1,31 @@
+{
+  "title": "Hero Profile",
+  "stats": {
+    "projects": "Conquests",
+    "skills": "Powers",
+    "verifiedSkills": "Proven Powers",
+    "endorsements": "Guild Recognition",
+    "careerMatches": "Quest Matches"
+  },
+  "sections": {
+    "topSkills": "Strongest Powers",
+    "recentProjects": "Recent Conquests"
+  },
+  "verification": {
+    "selfAssessed": "Self-Proclaimed",
+    "peerEndorsed": "Guild Endorsed",
+    "projectVerified": "Battle-Tested",
+    "aiAnalyzed": "AI Analyzed",
+    "assessmentPassed": "Trial Passed",
+    "certificationVerified": "Certified"
+  },
+  "cta": {
+    "title": "Enhance your legend",
+    "description": "Add more conquests and gain guild recognition to increase your visibility to guilds.",
+    "addProject": "Add Conquest",
+    "requestFeedback": "Seek Guild Wisdom"
+  },
+  "actions": {
+    "viewAll": "View All"
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "title": "Mądrość Gildii",
+  "subtitle": "Zbieraj mądrość od członków gildii i sojuszników",
+  "pageSubtitle": "Recenzje gildii dla walidacji mocy",
+  "sections": {
+    "requests": "Moje Prośby",
+    "pending": "Oczekująca Mądrość",
+    "completed": "Otrzymana Mądrość",
+    "toRespond": "Mądrość do Podzielenia"
+  },
+  "request": {
+    "title": "Szukaj Mądrości Gildii",
+    "subtitle": "Zaproś sojuszników i członków gildii do podzielenia się mądrością o twoich profesjonalnych mocach.",
+    "selectSkills": "Wybierz moce, o których chcesz uzyskać mądrość",
+    "addRespondents": "Dodaj recenzentów",
+    "respondentPlaceholder": "Wprowadź adres e-mail",
+    "message": "Wiadomość osobista (opcjonalnie)",
+    "messagePlaceholder": "Dodaj osobistą notatkę do prośby...",
+    "deadline": "Termin odpowiedzi",
+    "anonymous": "Zezwól na anonimową mądrość",
+    "anonymousDesc": "Recenzenci mogą pozostać anonimowi"
+  },
+  "form": {
+    "requestDetails": "Szczegóły Prośby",
+    "titleLabel": "Tytuł",
+    "titlePlaceholder": "np. Recenzja Gildii za Q1",
+    "titleRequired": "Podaj tytuł prośby o mądrość",
+    "contextLabel": "Kontekst (opcjonalnie)",
+    "contextPlaceholder": "Podaj kontekst, który pomoże recenzentom podzielić się lepszą mądrością...",
+    "promptQuestions": "Pytania Przewodnie",
+    "promptQuestionsDesc": "Te pytania poprowadzą recenzentów. Możesz je dostosować lub użyć domyślnych.",
+    "addCustomQuestion": "Dodaj własne pytanie...",
+    "questionsCount": "{count}/6 pytań",
+    "questionRequired": "Wymagane jest co najmniej jedno pytanie przewodnie",
+    "inviteRespondents": "Zaproś Recenzentów",
+    "inviteRespondentsDesc": "Zaproś sojuszników, mentorów lub członków gildii do podzielenia się mądrością. Minimum 3, maksimum 10.",
+    "emailRequired": "E-mail *",
+    "nameOptional": "Imię (opcjonalnie)",
+    "relationship": "Relacja",
+    "respondentsCount": "{count}/10 recenzentów · Minimum 3 wymagane",
+    "minRespondentsError": "Zaproś co najmniej 3 recenzentów",
+    "settings": "Ustawienia",
+    "anonymousResponses": "Anonimowa Mądrość",
+    "anonymousResponsesDesc": "Tożsamość recenzentów będzie ukryta w wynikach",
+    "expiresIn": "Wygasa za",
+    "days": "{count} dni",
+    "cancel": "Anuluj",
+    "sending": "Wysyłanie...",
+    "sendInvitations": "Wyślij Zaproszenia"
+  },
+  "response": {
+    "title": "Podziel się Mądrością",
+    "subtitle": "Pomóż {name} wzmocnić moce",
+    "rateSkill": "Oceń tę moc",
+    "comments": "Dodatkowa mądrość",
+    "commentsPlaceholder": "Podziel się konkretnymi przykładami lub wskazówkami...",
+    "voiceFeedback": "Głosowa Mądrość",
+    "recordVoice": "Nagraj wiadomość głosową",
+    "stopRecording": "Zatrzymaj nagrywanie",
+    "playRecording": "Odtwórz nagranie",
+    "deleteRecording": "Usuń nagranie",
+    "submitAnonymously": "Wyślij anonimowo"
+  },
+  "rating": {
+    "excellent": "Legendarnie",
+    "good": "Epicko",
+    "adequate": "Odpowiednio",
+    "needsImprovement": "Wymaga Treningu",
+    "notObserved": "Nie Obserwowano"
+  },
+  "status": {
+    "draft": "Szkic",
+    "sent": "Wysłano",
+    "inProgress": "Zbieranie",
+    "completed": "Ukończono",
+    "expired": "Wygasło",
+    "all": "Wszystkie",
+    "PENDING": "Oczekujące",
+    "IN_PROGRESS": "Zbieranie",
+    "COMPLETED": "Ukończone",
+    "EXPIRED": "Wygasłe",
+    "DECLINED": "Odrzucone"
+  },
+  "card": {
+    "responses": "{count}/{total} odpowiedzi",
+    "expires": "Wygasa {time}",
+    "expired": "Wygasło"
+  },
+  "gallery": {
+    "totalRequests": "Wszystkie Prośby",
+    "pending": "Oczekujące",
+    "inProgress": "Zbieranie",
+    "completed": "Ukończone",
+    "noMatchingFilter": "Brak próśb pasujących do wybranego filtra.",
+    "createRequest": "Utwórz Prośbę"
+  },
+  "actions": {
+    "newRequest": "Szukaj Mądrości",
+    "sendRequest": "Wyślij Prośbę",
+    "cancelRequest": "Anuluj Prośbę",
+    "submitFeedback": "Podziel się Mądrością",
+    "viewResponses": "Zobacz Mądrość",
+    "remindRespondents": "Wyślij Przypomnienie"
+  },
+  "respondents": {
+    "title": "Recenzenci",
+    "status": "Status",
+    "responded": "Odpowiedzieli",
+    "pending": "Oczekujący",
+    "declined": "Odmówili",
+    "addMore": "Dodaj więcej recenzentów"
+  },
+  "voice": {
+    "recording": "Nagrywanie...",
+    "maxDuration": "Maksymalny czas: {seconds} sekund",
+    "uploading": "Przesyłanie wiadomości głosowej...",
+    "uploadSuccess": "Wiadomość głosowa przesłana!",
+    "uploadError": "Nie udało się przesłać wiadomości głosowej"
+  },
+  "empty": {
+    "noRequests": "Brak próśb o mądrość",
+    "noRequestsDesc": "Utwórz pierwszą prośbę o mądrość, aby zebrać cenne spostrzeżenia od sojuszników i członków gildii.",
+    "noPending": "Brak oczekujących odpowiedzi",
+    "noCompleted": "Brak otrzymanej mądrości",
+    "startRequest": "Szukaj mądrości gildii, aby zweryfikować swoje miękkie moce"
+  },
+  "notifications": {
+    "requestSent": "Prośba o mądrość wysłana pomyślnie!",
+    "feedbackSubmitted": "Dziękujemy za podzielenie się mądrością!",
+    "reminderSent": "Przypomnienie wysłane do oczekujących recenzentów"
+  },
+  "errors": {
+    "fetchFailed": "Nie udało się załadować próśb",
+    "tryAgain": "Spróbuj ponownie"
+  }
+}

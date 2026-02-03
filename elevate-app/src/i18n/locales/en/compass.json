@@ -1,0 +1,47 @@
+{
+  "title": "Quest Compass",
+  "subtitle": "Chart your path to legendary status",
+  "actions": {
+    "viewMySkills": "View My Powers",
+    "addProject": "Add a Conquest",
+    "learnNewSkills": "Unlock New Powers",
+    "viewJobs": "Hunt for Roles"
+  },
+  "industries": {
+    "title": "Choose Your Realm",
+    "all": "All",
+    "space": {
+      "name": "Space",
+      "description": "Explore careers in aerospace, satellites, and space exploration"
+    },
+    "energy": {
+      "name": "Energy",
+      "description": "Discover opportunities in renewable energy and sustainability"
+    },
+    "robotics": {
+      "name": "Robotics",
+      "description": "Build the future with automation and intelligent machines"
+    },
+    "software": {
+      "name": "Software/AI",
+      "description": "Create software solutions and artificial intelligence systems"
+    }
+  },
+  "careerPaths": {
+    "title": "Quest Paths in {industry}",
+    "level": "{level} Rank",
+    "salaryRange": "Reward Range",
+    "jobGrowth": "Quest Demand",
+    "requiredSkills": "Required Powers",
+    "yourMatch": "Your Match",
+    "match": "{score}% match"
+  },
+  "careerJourneys": {
+    "title": "Hero Journeys",
+    "careerPath": "Quest Path"
+  },
+  "cta": {
+    "title": "Want to improve your match score?",
+    "description": "Add conquests to your gallery to prove more powers and increase your quest match scores."
+  }
+}

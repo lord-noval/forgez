@@ -1,0 +1,124 @@
+{
+  "title": "Guild Board",
+  "subtitle": "Discover epic roles that match your powers and quest goals",
+  "aiMatching": {
+    "title": "AI-Powered Quest Matching",
+    "description": "Complete your power profile to get personalized quest recommendations with match scores",
+    "viewMatches": "View Matches"
+  },
+  "filters": {
+    "employmentType": "Employment Type",
+    "workLocation": "Work Location",
+    "remoteOnly": "Remote Only",
+    "clearAll": "Clear all"
+  },
+  "results": {
+    "jobsFound": "{count} quest{count, plural, one {} other {s}} found",
+    "loadMore": "Load More"
+  },
+  "sections": {
+    "jobs": "Guild Board",
+    "myApplications": "My Challenges",
+    "savedJobs": "Marked Quests",
+    "recommended": "Destined for You"
+  },
+  "job": {
+    "title": "Role Title",
+    "company": "Guild",
+    "location": "Location",
+    "type": "Quest Type",
+    "salary": "Reward Range",
+    "experience": "Experience Required",
+    "description": "Description",
+    "requirements": "Requirements",
+    "benefits": "Perks",
+    "skills": "Required Powers",
+    "posted": "Posted",
+    "deadline": "Challenge Deadline",
+    "applicants": "Challengers"
+  },
+  "types": {
+    "fullTime": "Full-time",
+    "partTime": "Part-time",
+    "contract": "Contract",
+    "internship": "Apprenticeship",
+    "freelance": "Freelance",
+    "remote": "Remote",
+    "hybrid": "Hybrid",
+    "onsite": "On-site"
+  },
+  "industries": {
+    "space": "Space",
+    "energy": "Energy",
+    "robotics": "Robotics",
+    "softwareAI": "Software & AI",
+    "all": "All Industries"
+  },
+  "matching": {
+    "skillMatch": "Power Match",
+    "matchingSkills": "Matching Powers",
+    "missingSkills": "Powers to Unlock",
+    "strongMatch": "Legendary Match",
+    "goodMatch": "Epic Match",
+    "partialMatch": "Partial Match"
+  },
+  "application": {
+    "title": "Accept the Challenge",
+    "coverLetter": "Battle Scroll",
+    "coverLetterPlaceholder": "Introduce yourself and explain why you're a legendary fit...",
+    "resume": "Hero Resume",
+    "uploadResume": "Upload Resume",
+    "portfolio": "Achievement Gallery Link",
+    "portfolioPlaceholder": "Link to your conquests",
+    "availability": "Availability",
+    "availabilityPlaceholder": "When can you begin?",
+    "salaryExpectation": "Reward Expectation",
+    "additionalInfo": "Additional Information"
+  },
+  "applicationStatus": {
+    "draft": "Draft",
+    "submitted": "Submitted",
+    "underReview": "Under Review",
+    "interview": "Trial Stage",
+    "offered": "Offer Extended",
+    "accepted": "Accepted",
+    "rejected": "Not Selected",
+    "withdrawn": "Withdrawn"
+  },
+  "actions": {
+    "apply": "Accept the Challenge",
+    "saveJob": "Mark Quest",
+    "unsaveJob": "Unmark",
+    "shareJob": "Share Quest",
+    "viewDetails": "View Details",
+    "withdrawApplication": "Withdraw",
+    "viewApplication": "View Challenge"
+  },
+  "search": {
+    "placeholder": "Search quests...",
+    "filterByIndustry": "Industry",
+    "filterByType": "Quest Type",
+    "filterByLocation": "Location",
+    "filterByExperience": "Experience Level",
+    "filterBySalary": "Reward Range",
+    "sortBy": "Sort by",
+    "sortOptions": {
+      "relevance": "Relevance",
+      "newest": "Newest",
+      "salary": "Reward",
+      "deadline": "Deadline"
+    }
+  },
+  "empty": {
+    "noJobs": "No quests found",
+    "noApplications": "No challenges accepted yet",
+    "noSaved": "No marked quests",
+    "startExploring": "Start hunting for epic opportunities"
+  },
+  "notifications": {
+    "applicationSubmitted": "Challenge accepted successfully!",
+    "jobSaved": "Quest marked!",
+    "jobUnsaved": "Quest unmarked",
+    "applicationWithdrawn": "Challenge withdrawn"
+  }
+}

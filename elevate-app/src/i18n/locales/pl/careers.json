@@ -1,0 +1,124 @@
+{
+  "title": "Tablica Gildii",
+  "subtitle": "Odkryj epickie role pasujące do twoich mocy i celów questowych",
+  "aiMatching": {
+    "title": "Dopasowywanie Questów przez AI",
+    "description": "Uzupełnij profil mocy, aby otrzymać spersonalizowane rekomendacje questów z wynikami dopasowania",
+    "viewMatches": "Zobacz Dopasowania"
+  },
+  "filters": {
+    "employmentType": "Typ Zatrudnienia",
+    "workLocation": "Lokalizacja Pracy",
+    "remoteOnly": "Tylko Zdalne",
+    "clearAll": "Wyczyść wszystkie"
+  },
+  "results": {
+    "jobsFound": "{count, plural, one {# quest znaleziony} few {# questy znalezione} many {# questów znalezionych} other {# questów znalezionych}}",
+    "loadMore": "Załaduj Więcej"
+  },
+  "sections": {
+    "jobs": "Tablica Gildii",
+    "myApplications": "Moje Wyzwania",
+    "savedJobs": "Zaznaczone Questy",
+    "recommended": "Przeznaczone dla Ciebie"
+  },
+  "job": {
+    "title": "Tytuł Roli",
+    "company": "Gildia",
+    "location": "Lokalizacja",
+    "type": "Typ Questu",
+    "salary": "Zakres Nagród",
+    "experience": "Wymagane Doświadczenie",
+    "description": "Opis",
+    "requirements": "Wymagania",
+    "benefits": "Korzyści",
+    "skills": "Wymagane Moce",
+    "posted": "Opublikowano",
+    "deadline": "Termin Wyzwania",
+    "applicants": "Pretendenci"
+  },
+  "types": {
+    "fullTime": "Pełny etat",
+    "partTime": "Część etatu",
+    "contract": "Kontrakt",
+    "internship": "Praktyka",
+    "freelance": "Freelance",
+    "remote": "Zdalnie",
+    "hybrid": "Hybrydowo",
+    "onsite": "Stacjonarnie"
+  },
+  "industries": {
+    "space": "Kosmos",
+    "energy": "Energia",
+    "robotics": "Robotyka",
+    "softwareAI": "Oprogramowanie i AI",
+    "all": "Wszystkie Branże"
+  },
+  "matching": {
+    "skillMatch": "Dopasowanie Mocy",
+    "matchingSkills": "Pasujące Moce",
+    "missingSkills": "Moce do Odblokowania",
+    "strongMatch": "Legendarne Dopasowanie",
+    "goodMatch": "Epickie Dopasowanie",
+    "partialMatch": "Częściowe Dopasowanie"
+  },
+  "application": {
+    "title": "Przyjmij Wyzwanie",
+    "coverLetter": "Zwój Bojowy",
+    "coverLetterPlaceholder": "Przedstaw się i wyjaśnij, dlaczego jesteś legendarnym kandydatem...",
+    "resume": "CV Bohatera",
+    "uploadResume": "Prześlij CV",
+    "portfolio": "Link do Galerii Osiągnięć",
+    "portfolioPlaceholder": "Link do twoich podbojów",
+    "availability": "Dostępność",
+    "availabilityPlaceholder": "Kiedy możesz zacząć?",
+    "salaryExpectation": "Oczekiwana Nagroda",
+    "additionalInfo": "Dodatkowe Informacje"
+  },
+  "applicationStatus": {
+    "draft": "Szkic",
+    "submitted": "Wysłana",
+    "underReview": "W Trakcie Przeglądu",
+    "interview": "Etap Próby",
+    "offered": "Oferta Złożona",
+    "accepted": "Zaakceptowana",
+    "rejected": "Nie Wybrano",
+    "withdrawn": "Wycofana"
+  },
+  "actions": {
+    "apply": "Przyjmij Wyzwanie",
+    "saveJob": "Zaznacz Quest",
+    "unsaveJob": "Odznacz",
+    "shareJob": "Udostępnij Quest",
+    "viewDetails": "Zobacz Szczegóły",
+    "withdrawApplication": "Wycofaj",
+    "viewApplication": "Zobacz Wyzwanie"
+  },
+  "search": {
+    "placeholder": "Szukaj questów...",
+    "filterByIndustry": "Branża",
+    "filterByType": "Typ Questu",
+    "filterByLocation": "Lokalizacja",
+    "filterByExperience": "Poziom Doświadczenia",
+    "filterBySalary": "Zakres Nagród",
+    "sortBy": "Sortuj według",
+    "sortOptions": {
+      "relevance": "Trafność",
+      "newest": "Najnowsze",
+      "salary": "Nagroda",
+      "deadline": "Termin"
+    }
+  },
+  "empty": {
+    "noJobs": "Nie znaleziono questów",
+    "noApplications": "Nie przyjęto jeszcze wyzwań",
+    "noSaved": "Brak zaznaczonych questów",
+    "startExploring": "Rozpocznij polowanie na epickie możliwości"
+  },
+  "notifications": {
+    "applicationSubmitted": "Wyzwanie przyjęte pomyślnie!",
+    "jobSaved": "Quest zaznaczony!",
+    "jobUnsaved": "Quest odznaczony",
+    "applicationWithdrawn": "Wyzwanie wycofane"
+  }
+}

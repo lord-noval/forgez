@@ -1,0 +1,694 @@
+/* Import Google Fonts - must be before tailwindcss */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+
+@import "tailwindcss";
+
+/* ============================================================================
+   FORGE-Z Theme - RPG Career Exploration Platform
+   ============================================================================ */
+
+:root {
+  /* Backgrounds - Deep charcoal with warm undertones */
+  --background: #0D0907;
+  --background-secondary: #1A1210;
+  --background-tertiary: #261A14;
+
+  /* Text - Warm tones */
+  --foreground: #FEF3C7;
+  --foreground-muted: #D4A574;
+  --foreground-subtle: #A67C52;
+
+  /* Primary - Fire Orange */
+  --primary: #F97316;
+  --primary-hover: #FB923C;
+  --primary-dark: #C2410C;
+  --primary-muted: rgba(249, 115, 22, 0.2);
+
+  /* Secondary - Molten Gold */
+  --secondary: #EAB308;
+  --secondary-hover: #FACC15;
+  --secondary-muted: rgba(234, 179, 8, 0.2);
+
+  /* XP/Accent - Cyan Glow */
+  --accent: #22D3EE;
+  --accent-hover: #67E8F9;
+  --accent-dark: #0891B2;
+  --accent-muted: rgba(34, 211, 238, 0.2);
+
+  /* Success - Level Up Green */
+  --success: #84CC16;
+  --success-hover: #A3E635;
+  --success-muted: rgba(132, 204, 22, 0.2);
+
+  /* Warning - Quest Alert */
+  --warning: #FB923C;
+  --warning-hover: #FDBA74;
+  --warning-muted: rgba(251, 146, 60, 0.2);
+
+  /* Achievement - Gold Medal */
+  --achievement: #F59E0B;
+  --achievement-hover: #FBBF24;
+  --achievement-muted: rgba(245, 158, 11, 0.2);
+
+  /* Danger - Failed Red */
+  --danger: #DC2626;
+  --danger-hover: #EF4444;
+  --danger-muted: rgba(220, 38, 38, 0.2);
+
+  /* Borders - Warm charcoal */
+  --border: #3D2A1A;
+  --border-hover: #5A3D28;
+
+  /* XP Colors */
+  --xp: #22D3EE;
+  --xp-glow: rgba(34, 211, 238, 0.4);
+
+  /* Quest Status Colors */
+  --quest-locked: #52525B;
+  --quest-available: #F97316;
+  --quest-active: #22D3EE;
+  --quest-completed: #84CC16;
+
+  /* Rarity Colors for Items/Achievements */
+  --rarity-common: #71717A;
+  --rarity-uncommon: #22C55E;
+  --rarity-rare: #3B82F6;
+  --rarity-epic: #A855F7;
+  --rarity-legendary: #F97316;
+
+  /* Radius */
+  --radius: 0.75rem;
+  --radius-sm: 0.5rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.5rem;
+
+  /* Spacing Tokens */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --card-padding: var(--space-lg);
+  --section-gap: var(--space-xl);
+}
+
+/* FORGE-Z Theme (default and only theme) */
+[data-world="forgez"],
+:root {
+  --background: #0D0907;
+  --background-secondary: #1A1210;
+  --background-tertiary: #261A14;
+  --foreground: #FEF3C7;
+  --foreground-muted: #D4A574;
+  --foreground-subtle: #A67C52;
+  --primary: #F97316;
+  --primary-hover: #FB923C;
+  --primary-muted: rgba(249, 115, 22, 0.2);
+  --secondary: #EAB308;
+  --secondary-hover: #FACC15;
+  --secondary-muted: rgba(234, 179, 8, 0.2);
+  --success: #84CC16;
+  --success-hover: #A3E635;
+  --success-muted: rgba(132, 204, 22, 0.2);
+  --warning: #FB923C;
+  --warning-hover: #FDBA74;
+  --warning-muted: rgba(251, 146, 60, 0.2);
+  --achievement: #F59E0B;
+  --achievement-hover: #FBBF24;
+  --achievement-muted: rgba(245, 158, 11, 0.2);
+  --danger: #DC2626;
+  --danger-hover: #EF4444;
+  --danger-muted: rgba(220, 38, 38, 0.2);
+  --border: #3D2A1A;
+  --border-hover: #5A3D28;
+}
+
+/* FORGE-Z Background Pattern - Subtle ember glow */
+[data-world="forgez"]::before,
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image:
+    radial-gradient(circle at 20% 80%, rgba(249, 115, 22, 0.08) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(234, 179, 8, 0.06) 0%, transparent 50%),
+    radial-gradient(circle at 50% 50%, rgba(220, 38, 38, 0.03) 0%, transparent 70%);
+  pointer-events: none;
+  z-index: -1;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-background-secondary: var(--background-secondary);
+  --color-background-tertiary: var(--background-tertiary);
+  --color-foreground: var(--foreground);
+  --color-foreground-muted: var(--foreground-muted);
+  --color-foreground-subtle: var(--foreground-subtle);
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-primary-muted: var(--primary-muted);
+  --color-secondary: var(--secondary);
+  --color-secondary-hover: var(--secondary-hover);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-achievement: var(--achievement);
+  --color-danger: var(--danger);
+  --color-border: var(--border);
+  --color-border-hover: var(--border-hover);
+  --color-xp: var(--xp);
+
+  /* Fonts */
+  --font-sans: 'Inter', sans-serif;
+  --font-display: 'Space Grotesk', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  --radius: 0.75rem;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--border);
+  border-radius: 3px;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Glassmorphism utilities */
+.glass {
+  background: rgba(26, 18, 16, 0.8);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--border);
+}
+
+.glass-card {
+  background: linear-gradient(
+    135deg,
+    rgba(26, 18, 16, 0.9) 0%,
+    rgba(26, 18, 16, 0.6) 100%
+  );
+  backdrop-filter: blur(16px);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+/* Gradient text - Fire theme */
+.gradient-text {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.gradient-text-fire {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 50%, var(--achievement) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* XP text glow */
+.gradient-text-xp {
+  background: linear-gradient(135deg, var(--accent) 0%, var(--success) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Gradient borders */
+.gradient-border {
+  position: relative;
+  background: var(--background-secondary);
+  border-radius: var(--radius);
+}
+
+.gradient-border::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: var(--radius);
+  padding: 1px;
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+/* XP Border Glow */
+.xp-border {
+  position: relative;
+}
+
+.xp-border::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: var(--radius);
+  padding: 2px;
+  background: linear-gradient(135deg, var(--accent), var(--success));
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+/* Glow effects */
+.glow-primary {
+  box-shadow: 0 0 20px var(--primary-muted), 0 0 40px var(--primary-muted);
+}
+
+.glow-success {
+  box-shadow: 0 0 20px var(--success-muted), 0 0 40px var(--success-muted);
+}
+
+.glow-warning {
+  box-shadow: 0 0 20px var(--warning-muted), 0 0 40px var(--warning-muted);
+}
+
+.glow-achievement {
+  box-shadow: 0 0 20px var(--achievement-muted), 0 0 40px var(--achievement-muted);
+}
+
+.glow-xp {
+  box-shadow: 0 0 20px var(--xp-glow), 0 0 40px var(--xp-glow);
+}
+
+/* Quest card states */
+.quest-locked {
+  opacity: 0.5;
+  filter: grayscale(0.8);
+}
+
+.quest-available {
+  border-color: var(--primary);
+  box-shadow: 0 0 15px var(--primary-muted);
+}
+
+.quest-active {
+  border-color: var(--accent);
+  box-shadow: 0 0 20px var(--accent-muted);
+}
+
+.quest-completed {
+  border-color: var(--success);
+}
+
+/* Progress bar gradient - Fire to gold */
+.progress-gradient {
+  background: linear-gradient(90deg, var(--primary), var(--secondary));
+}
+
+/* XP progress bar */
+.progress-xp {
+  background: linear-gradient(90deg, var(--accent), var(--success));
+}
+
+/* Pulse animation */
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 5px var(--primary-muted); }
+  50% { box-shadow: 0 0 20px var(--primary-muted), 0 0 30px var(--primary-muted); }
+}
+
+.pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+/* XP Pulse */
+@keyframes pulse-xp {
+  0%, 100% { box-shadow: 0 0 5px var(--xp-glow); }
+  50% { box-shadow: 0 0 25px var(--xp-glow), 0 0 40px var(--xp-glow); }
+}
+
+.pulse-xp {
+  animation: pulse-xp 2s ease-in-out infinite;
+}
+
+/* Level up animation */
+@keyframes level-up {
+  0% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.2); opacity: 0.8; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+.level-up {
+  animation: level-up 0.5s ease-out;
+}
+
+/* XP gain animation */
+@keyframes xp-gain {
+  0% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(-30px); opacity: 0; }
+}
+
+.xp-gain {
+  animation: xp-gain 1s ease-out forwards;
+}
+
+/* Skeleton loading */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.skeleton {
+  background: linear-gradient(
+    90deg,
+    var(--background-secondary) 0%,
+    var(--background-tertiary) 50%,
+    var(--background-secondary) 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.5s ease-in-out infinite;
+}
+
+/* Progress bar shimmer effect */
+.animate-shimmer {
+  animation: shimmer 2s linear infinite;
+}
+
+/* Typography */
+.font-display {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.font-mono {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Theme transition animation */
+.theme-transitioning,
+.theme-transitioning *,
+.theme-transitioning *::before,
+.theme-transitioning *::after {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+/* Quest number badge */
+.quest-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  font-weight: 700;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.quest-number-locked {
+  background: var(--background-tertiary);
+  color: var(--foreground-subtle);
+  border: 2px solid var(--border);
+}
+
+.quest-number-available {
+  background: var(--primary-muted);
+  color: var(--primary);
+  border: 2px solid var(--primary);
+}
+
+.quest-number-active {
+  background: var(--accent-muted);
+  color: var(--accent);
+  border: 2px solid var(--accent);
+}
+
+.quest-number-completed {
+  background: var(--success-muted);
+  color: var(--success);
+  border: 2px solid var(--success);
+}
+
+/* ============================================================================
+   Celebration & UX Enhancement Animations
+   ============================================================================ */
+
+/* Callout box pattern overlay */
+.callout-pattern {
+  background-image: radial-gradient(
+    circle at 100% 0%,
+    rgba(255, 255, 255, 0.05) 0%,
+    transparent 50%
+  );
+}
+
+/* Particle burst animation */
+@keyframes particle-burst {
+  0% {
+    transform: scale(1) translate(0, 0);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0) translate(var(--tx, 100px), var(--ty, -100px));
+    opacity: 0;
+  }
+}
+
+.particle-burst {
+  animation: particle-burst 0.8s ease-out forwards;
+}
+
+/* Badge reveal flip */
+@keyframes badge-reveal {
+  0% {
+    transform: rotateY(90deg) scale(0.5);
+    opacity: 0;
+  }
+  50% {
+    transform: rotateY(-10deg) scale(1.1);
+    opacity: 1;
+  }
+  100% {
+    transform: rotateY(0deg) scale(1);
+    opacity: 1;
+  }
+}
+
+.badge-reveal {
+  animation: badge-reveal 0.6s ease-out forwards;
+}
+
+/* Glow burst for celebrations */
+@keyframes glow-burst {
+  0% {
+    box-shadow: 0 0 0 0 var(--achievement-muted);
+  }
+  50% {
+    box-shadow: 0 0 60px 30px var(--achievement-muted);
+  }
+  100% {
+    box-shadow: 0 0 20px 10px var(--achievement-muted);
+  }
+}
+
+.glow-burst {
+  animation: glow-burst 0.6s ease-out forwards;
+}
+
+/* Float up and fade for XP */
+@keyframes float-up-fade {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-60px) scale(0.8);
+    opacity: 0;
+  }
+}
+
+.float-up-fade {
+  animation: float-up-fade 1.2s ease-out forwards;
+}
+
+/* Card hover depth effect */
+.card-hover-depth {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover-depth:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.5), 0 0 20px var(--primary-muted);
+}
+
+/* Epic glow for celebrations */
+.glow-epic {
+  box-shadow:
+    0 0 20px var(--achievement-muted),
+    0 0 40px var(--primary-muted),
+    0 0 60px var(--achievement-muted);
+  animation: pulse-glow-epic 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse-glow-epic {
+  0%, 100% {
+    box-shadow:
+      0 0 20px var(--achievement-muted),
+      0 0 40px var(--primary-muted),
+      0 0 60px var(--achievement-muted);
+  }
+  50% {
+    box-shadow:
+      0 0 30px var(--achievement-muted),
+      0 0 60px var(--primary-muted),
+      0 0 80px var(--achievement-muted);
+  }
+}
+
+/* Level badge */
+.level-badge {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, var(--primary), var(--achievement));
+  color: white;
+  box-shadow: 0 0 30px var(--achievement-muted), inset 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+/* Celebration backdrop */
+.celebration-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(13, 9, 7, 0.9);
+  backdrop-filter: blur(16px);
+  z-index: 100;
+}
+
+/* Typewriter effect for text */
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.typewriter {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typewriter 0.5s steps(12) forwards;
+}
+
+/* Scale bounce animation */
+@keyframes scale-bounce {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.scale-bounce {
+  animation: scale-bounce 0.5s ease-out forwards;
+}
+
+/* Shine sweep effect */
+.shine-sweep {
+  position: relative;
+  overflow: hidden;
+}
+
+.shine-sweep::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.1) 50%,
+    transparent 100%
+  );
+  transform: translateX(-100%) skewX(-15deg);
+  animation: shine-sweep 3s ease-in-out infinite;
+}
+
+@keyframes shine-sweep {
+  0% {
+    transform: translateX(-100%) skewX(-15deg);
+  }
+  100% {
+    transform: translateX(200%) skewX(-15deg);
+  }
+}
+
+/* Success pulse */
+@keyframes success-pulse {
+  0%, 100% {
+    box-shadow: 0 0 0 0 var(--success-muted);
+  }
+  50% {
+    box-shadow: 0 0 20px 10px var(--success-muted);
+  }
+}
+
+.success-pulse {
+  animation: success-pulse 1s ease-in-out;
+}
+
+/* Staggered fade in for lists */
+.stagger-fade-in > * {
+  opacity: 0;
+  animation: fade-in-up 0.4s ease-out forwards;
+}
+
+.stagger-fade-in > *:nth-child(1) { animation-delay: 0.1s; }
+.stagger-fade-in > *:nth-child(2) { animation-delay: 0.2s; }
+.stagger-fade-in > *:nth-child(3) { animation-delay: 0.3s; }
+.stagger-fade-in > *:nth-child(4) { animation-delay: 0.4s; }
+.stagger-fade-in > *:nth-child(5) { animation-delay: 0.5s; }
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

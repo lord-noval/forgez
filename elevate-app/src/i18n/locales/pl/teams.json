@@ -1,0 +1,126 @@
+{
+  "title": "Drużyny",
+  "subtitle": "Znajdź drużynę z uzupełniającymi się mocami lub wykuj własną",
+  "comingSoon": {
+    "title": "Dopasowywanie Drużyn już wkrótce",
+    "description": "Budujemy inteligentne dopasowywanie drużyn oparte na uzupełniających się mocach, rangach doświadczenia i stylach pracy. Dołącz do listy oczekujących, aby otrzymać powiadomienie o uruchomieniu.",
+    "joinWaitlist": "Dołącz do Listy",
+    "onTheList": "Jesteś na liście!",
+    "willNotify": "Powiadomimy Cię na {email}, gdy dopasowywanie drużyn zostanie uruchomione.",
+    "enterEmail": "Wprowadź swój e-mail"
+  },
+  "cta": {
+    "completeProfile": "Najpierw uzupełnij profil mocy",
+    "addSkillsForMatches": "Dodaj moce do skarbca dla lepszych dopasowań drużynowych",
+    "goToSkillsBank": "Przejdź do Skarbca Mocy"
+  },
+  "preview": {
+    "title": "Podgląd: Odkrywanie Drużyn",
+    "description": "Tak będzie wyglądać dopasowywanie drużyn"
+  },
+  "features": {
+    "skillComplementarity": {
+      "title": "Synergia Mocy",
+      "description": "Dopasuj się do sojuszników, którzy mają moce uzupełniające twoje."
+    },
+    "experienceBalance": {
+      "title": "Równowaga Doświadczenia",
+      "description": "Znajdź właściwą kombinację rang doświadczenia dla efektywnego mentoringu i nauki."
+    },
+    "workingStyleMatch": {
+      "title": "Dopasowanie Stylu Pracy",
+      "description": "Połącz się z bohaterami, którzy podzielają twój preferowany styl współpracy."
+    }
+  },
+  "buttons": {
+    "findMatch": "Znajdź Sojuszników",
+    "viewTeam": "Zobacz Drużynę",
+    "searchTeams": "Szukaj drużyn..."
+  },
+  "sections": {
+    "myTeams": "Moje Drużyny",
+    "discover": "Odkryj Drużyny",
+    "invitations": "Wezwania",
+    "matches": "Dopasowania Mocy"
+  },
+  "team": {
+    "name": "Nazwa Drużyny",
+    "description": "Opis",
+    "members": "Członkowie",
+    "skills": "Moce Drużyny",
+    "goals": "Cele Questowe",
+    "industry": "Branża",
+    "lookingFor": "Szukamy",
+    "openPositions": "Wolne Role"
+  },
+  "roles": {
+    "owner": "Przywódca",
+    "admin": "Oficer",
+    "member": "Członek",
+    "guest": "Gość"
+  },
+  "matching": {
+    "title": "Dopasowanie Mocy",
+    "compatibility": "Wynik Kompatybilności",
+    "complementarySkills": "Uzupełniające Moce",
+    "overlappingSkills": "Wspólne Moce",
+    "missingSkills": "Brakujące Moce",
+    "workingStyle": "Dopasowanie Stylu Pracy"
+  },
+  "actions": {
+    "createTeam": "Wykuj Drużynę",
+    "editTeam": "Edytuj Drużynę",
+    "deleteTeam": "Rozwiąż Drużynę",
+    "leaveTeam": "Opuść Drużynę",
+    "joinTeam": "Dołącz do Drużyny",
+    "inviteMember": "Rekrutuj Sojusznika",
+    "removeMember": "Usuń Członka",
+    "acceptInvitation": "Akceptuj",
+    "declineInvitation": "Odrzuć",
+    "viewProfile": "Zobacz Profil",
+    "message": "Wiadomość"
+  },
+  "create": {
+    "title": "Wykuj Nową Drużynę",
+    "namePlaceholder": "Wprowadź nazwę drużyny",
+    "descriptionPlaceholder": "Opisz swoją drużynę i cele questowe...",
+    "selectIndustry": "Wybierz branżę",
+    "addSkills": "Dodaj wymagane moce",
+    "setGoals": "Ustaw cele drużyny"
+  },
+  "invite": {
+    "title": "Rekrutuj do Drużyny",
+    "searchUsers": "Szukaj bohaterów",
+    "searchPlaceholder": "Szukaj po nazwie lub e-mailu...",
+    "selectRole": "Wybierz rolę",
+    "personalMessage": "Wiadomość osobista",
+    "messagePlaceholder": "Dodaj osobiste wezwanie...",
+    "inviteSent": "Wezwanie wysłane!"
+  },
+  "discover": {
+    "searchPlaceholder": "Szukaj drużyn...",
+    "filterByIndustry": "Filtruj według branży",
+    "filterBySkills": "Filtruj według potrzebnych mocy",
+    "sortBy": "Sortuj według",
+    "sortOptions": {
+      "compatibility": "Najlepsze Dopasowanie",
+      "newest": "Najnowsze",
+      "mostMembers": "Najwięcej Członków",
+      "alphabetical": "A-Z"
+    }
+  },
+  "empty": {
+    "noTeams": "Nie należysz jeszcze do żadnej drużyny",
+    "noInvitations": "Brak oczekujących wezwań",
+    "noMatches": "Nie znaleziono dopasowań drużyn",
+    "startDiscovering": "Odkryj drużyny lub wykuj własną"
+  },
+  "notifications": {
+    "teamCreated": "Drużyna wykuta pomyślnie!",
+    "teamUpdated": "Drużyna zaktualizowana!",
+    "memberInvited": "Wezwanie wysłane!",
+    "invitationAccepted": "Dołączyłeś do drużyny!",
+    "invitationDeclined": "Wezwanie odrzucone",
+    "leftTeam": "Opuściłeś drużynę"
+  }
+}

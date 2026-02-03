@@ -1,0 +1,130 @@
+{
+  "title": "Moce",
+  "subtitle": "Twój udowodniony profil mocy",
+  "subtitleCount": "Twój udowodniony profil z {count} zdolnościami",
+  "bank": {
+    "title": "Skarbiec Mocy",
+    "subtitle": "Śledź i udowadniaj swoje profesjonalne moce",
+    "totalSkills": "Wszystkie Moce",
+    "verifiedSkills": "Udowodnione",
+    "pendingVerification": "Oczekujące na Dowód",
+    "endorsements": "Uznanie Gildii",
+    "avgLevel": "Średnia Ranga"
+  },
+  "categories": {
+    "KNOWLEDGE": "Wiedza",
+    "SKILL": "Moce Techniczne",
+    "COMPETENCE": "Kompetencje",
+    "TRANSVERSAL": "Moce Miękkie",
+    "LANGUAGE": "Języki",
+    "technical": "Moce Techniczne",
+    "soft": "Moce Miękkie",
+    "industry": "Moce Branżowe",
+    "tools": "Narzędzia i Technologie",
+    "languages": "Języki",
+    "certifications": "Certyfikaty"
+  },
+  "levels": {
+    "beginner": "Nowicjusz",
+    "intermediate": "Adept",
+    "advanced": "Ekspert",
+    "expert": "Mistrz"
+  },
+  "verification": {
+    "title": "Status Weryfikacji",
+    "SELF_ASSESSED": "Samozadeklarowana",
+    "PEER_ENDORSED": "Potwierdzona przez Gildię",
+    "PROJECT_VERIFIED": "Sprawdzona w Boju",
+    "AI_ANALYZED": "Analiza AI",
+    "ASSESSMENT_PASSED": "Próba Zaliczona",
+    "CERTIFICATION_VERIFIED": "Certyfikowana",
+    "selfAssessed": "Samozadeklarowana",
+    "selfAssessedDesc": "Moc zadeklarowana przez bohatera",
+    "peerEndorsed": "Potwierdzona przez Gildię",
+    "peerEndorsedDesc": "Zweryfikowana przez członków gildii",
+    "projectVerified": "Sprawdzona w Boju",
+    "projectVerifiedDesc": "Wykazana w podbojach",
+    "aiAnalyzed": "Analiza AI",
+    "aiAnalyzedDesc": "Wyodrębniona z artefaktów",
+    "assessmentPassed": "Próba Zaliczona",
+    "assessmentPassedDesc": "Zdane wyzwanie",
+    "certificationVerified": "Certyfikowana",
+    "certificationVerifiedDesc": "Zewnętrzny certyfikat zweryfikowany"
+  },
+  "frameworks": {
+    "esco": "ESCO",
+    "sfia": "SFIA",
+    "onet": "O*NET",
+    "elevate": "FORGE-Z",
+    "custom": "Własne"
+  },
+  "actions": {
+    "addSkill": "Dodaj Moc",
+    "addFirstSkill": "Odblokuj Pierwszą Moc",
+    "editSkill": "Edytuj Moc",
+    "deleteSkill": "Usuń Moc",
+    "requestEndorsement": "Szukaj Uznania Gildii",
+    "takeAssessment": "Zmierz się z Próbą",
+    "uploadCertification": "Prześlij Certyfikat",
+    "viewDetails": "Zobacz Szczegóły",
+    "export": "Eksportuj",
+    "share": "Udostępnij",
+    "clear": "Wyczyść",
+    "clearFilters": "Wyczyść filtry"
+  },
+  "endorsements": {
+    "title": "Uznanie Gildii",
+    "requestTitle": "Szukaj Uznania Gildii",
+    "from": "Od",
+    "endorsedBy": "Potwierdzone przez {name}",
+    "noEndorsements": "Brak uznania gildii",
+    "requestSent": "Prośba o uznanie wysłana!",
+    "thankYou": "Dziękujemy za potwierdzenie!"
+  },
+  "search": {
+    "placeholder": "Szukaj mocy...",
+    "filterByCategory": "Filtruj według kategorii",
+    "filterByLevel": "Filtruj według rangi",
+    "filterByVerification": "Filtruj według dowodu",
+    "allCategories": "Wszystkie kategorie"
+  },
+  "addModal": {
+    "title": "Odblokuj Nową Moc",
+    "selectSkill": "Wybierz moc",
+    "selectLevel": "Wybierz swoją rangę",
+    "addEvidence": "Dodaj dowody (opcjonalnie)",
+    "evidencePlaceholder": "Opisz, jak zdobyłeś tę moc..."
+  },
+  "detailModal": {
+    "level": "Ranga Mocy",
+    "verificationStatus": "Status Weryfikacji",
+    "evidence": "Dowody",
+    "endorsements": "Uznanie Gildii",
+    "projects": "Powiązane Podboje",
+    "learningResources": "Zasoby Treningowe"
+  },
+  "empty": {
+    "noSkills": "Brak mocy",
+    "noMatchingSkills": "Brak pasujących mocy",
+    "startAdding": "Odblokuj moce, aby zacząć kuć udowodniony profil.",
+    "noResults": "Brak mocy pasujących do wyszukiwania",
+    "adjustFilters": "Spróbuj dostosować filtry."
+  },
+  "progress": {
+    "overall": "Ogólny Postęp",
+    "thisMonth": "Ten Miesiąc",
+    "skillsAdded": "Odblokowane Moce",
+    "skillsVerified": "Udowodnione Moce",
+    "endorsementsReceived": "Zdobyte Uznania"
+  },
+  "overview": {
+    "title": "Przegląd Mocy",
+    "topSkills": "Najsilniejsze Moce",
+    "categoryBreakdown": "Podział na Kategorie",
+    "verificationLevels": "Rangi Weryfikacji",
+    "skillsCount": "{count} mocy"
+  },
+  "chart": {
+    "level": "Ranga {level}"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "FORGE-Z",
+  "tagline": "Wyrusz na Przygodę",
+  "description": "Opanuj sztukę inżynierii poprzez praktyczne tworzenie",
+  "navigation": {
+    "dashboard": "Centrum Dowodzenia",
+    "skills": "Drzewo Umiejętności",
+    "profile": "Profil Bohatera",
+    "settings": "Ustawienia",
+    "portfolio": "Podboje",
+    "skillsBank": "Skarbiec Umiejętności",
+    "feedback": "Recenzje Gildii",
+    "teams": "Gildia",
+    "careers": "Sala Gildii",
+    "learn": "Kuźnia Umiejętności",
+    "compass": "Mapa Przygód"
+  },
+  "actions": {
+    "startJourney": "Rozpocznij Przygodę",
+    "continueJourney": "Kontynuuj Przygodę",
+    "viewProgress": "Zobacz Postępy"
+  },
+  "greetings": {
+    "welcomeMessage": "Witaj ponownie, Poszukiwaczu",
+    "dailyGreeting": "Gotowy na kolejną przygodę?"
+  },
+  "terminology": {
+    "project": "Projekt",
+    "projects": "Podboje",
+    "skill": "Umiejętność",
+    "skills": "Umiejętności",
+    "team": "Gildia",
+    "teams": "Gildie",
+    "goal": "Zadanie",
+    "goals": "Zadania",
+    "progress": "Postępy",
+    "achievement": "Osiągnięcie",
+    "level": "Poziom"
+  }
+}

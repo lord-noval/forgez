@@ -1,0 +1,200 @@
+{
+  "title": "Galeria Podbojow",
+  "subtitle": "Prezentuj swoje podboje i wyodrębnione moce",
+  "projectsCount": "{count, plural, one {# podbój} few {# podboje} many {# podbojów} other {# podbojów}}",
+  "sections": {
+    "myProjects": "Moje Podboje",
+    "publicGallery": "Galeria Bohaterów",
+    "sharedWithMe": "Udostępnione Mi"
+  },
+  "project": {
+    "title": "Tytuł Podboju",
+    "description": "Opis",
+    "type": "Typ Podboju",
+    "visibility": "Widoczność",
+    "skills": "Wyodrębnione Moce",
+    "artifacts": "Artefakty",
+    "createdAt": "Utworzono",
+    "updatedAt": "Ostatnia Aktualizacja"
+  },
+  "detail": {
+    "backTo": "Wróć do {page}",
+    "demoBanner": {
+      "title": "Podgląd Podboju Demo",
+      "description": "To jest przykładowy podbój pokazujący, jak będzie wyglądać twoja galeria w produkcji."
+    },
+    "about": "O Podboju",
+    "projectFiles": "Pliki Podboju",
+    "filesCount": "{count, plural, one {# plik} few {# pliki} many {# plików} other {# plików}}",
+    "noFilesYet": "Nie przesłano jeszcze żadnych plików",
+    "analyzed": "Przeanalizowano",
+    "extractedSkills": "Wyodrębnione Moce",
+    "verified": "Udowodnione",
+    "highlights": "Wyróżnienia",
+    "teamMembers": "Członkowie Gildii",
+    "keyMetrics": "Kluczowe Wskaźniki",
+    "projectInfo": "Informacje o Podboju",
+    "links": "Linki",
+    "viewProject": "Zobacz Podbój",
+    "viewRepository": "Zobacz Repozytorium",
+    "timeline": "Oś Czasu",
+    "started": "Rozpoczęto {date}",
+    "completed": "Zdobyto {date}",
+    "ongoing": "W Trakcie",
+    "created": "Utworzono {date}",
+    "tags": "Tagi",
+    "featured": "Wyróżniony",
+    "views": "{count} wyświetleń",
+    "teamSize": "Rozmiar Gildii",
+    "person": "{count, plural, one {# bohater} few {# bohaterów} many {# bohaterów} other {# bohaterów}}",
+    "totalViews": "Łączne Wyświetlenia",
+    "files": "Pliki",
+    "skillsDetected": "Wykryte Moce",
+    "share": "Udostępnij",
+    "edit": "Edytuj",
+    "deleteConfirm": "Czy na pewno chcesz usunąć ten podbój? Tej akcji nie można cofnąć.",
+    "cancel": "Anuluj",
+    "delete": "Usuń"
+  },
+  "types": {
+    "code": "Kod",
+    "document": "Dokument",
+    "video": "Wideo",
+    "audio": "Audio",
+    "design": "Projekt Graficzny",
+    "model_3d": "Model 3D",
+    "presentation": "Prezentacja",
+    "certification": "Certyfikat",
+    "other": "Inne"
+  },
+  "visibility": {
+    "private": "Ukryty",
+    "public": "Publiczny",
+    "unlisted": "Sekretny Link"
+  },
+  "actions": {
+    "newProject": "Nowy Podbój",
+    "editProject": "Edytuj Podbój",
+    "deleteProject": "Usuń Podbój",
+    "shareProject": "Udostępnij Podbój",
+    "duplicateProject": "Duplikuj Podbój",
+    "addArtifact": "Dodaj Artefakt",
+    "extractSkills": "Analizuj Moce",
+    "viewDetails": "Zobacz Szczegóły"
+  },
+  "upload": {
+    "title": "Prześlij Pliki",
+    "dragDrop": "Przeciągnij i upuść pliki tutaj",
+    "orBrowse": "lub przeglądaj, aby przesłać",
+    "supportedTypes": "Obsługiwane: Kod, Dokumenty, Pliki multimedialne",
+    "maxSize": "Maksymalny rozmiar pliku: {size}MB",
+    "uploading": "Przesyłanie...",
+    "processing": "Przetwarzanie...",
+    "success": "Przesyłanie zakończone!",
+    "error": "Przesyłanie nie powiodło się"
+  },
+  "gallery": {
+    "searchPlaceholder": "Szukaj podbojów...",
+    "filterByType": "Filtruj według typu",
+    "filterBySkill": "Filtruj według mocy",
+    "sortBy": "Sortuj według",
+    "sortOptions": {
+      "newest": "Najnowsze",
+      "oldest": "Najstarsze",
+      "mostSkills": "Najwięcej Mocy",
+      "alphabetical": "A-Z"
+    }
+  },
+  "share": {
+    "title": "Udostępnij Podbój",
+    "description": "Udostępnij swój podbój w mediach społecznościowych",
+    "copyLink": "Kopiuj Link",
+    "linkCopied": "Link skopiowany!",
+    "platforms": {
+      "twitter": "Twitter",
+      "linkedin": "LinkedIn",
+      "facebook": "Facebook",
+      "discord": "Discord",
+      "reddit": "Reddit",
+      "whatsapp": "WhatsApp"
+    }
+  },
+  "empty": {
+    "noProjects": "Brak podbojów",
+    "startCreating": "Zacznij od przesłania pierwszego podboju",
+    "noResults": "Brak podbojów pasujących do wyszukiwania"
+  },
+  "delete": {
+    "title": "Usuń Podbój",
+    "confirm": "Czy na pewno chcesz usunąć ten podbój?",
+    "warning": "Tej akcji nie można cofnąć."
+  },
+  "editor": {
+    "additionalDetails": "Dodatkowe Szczegóły",
+    "additionalDetailsDescription": "Dodaj wyróżnienia, wskaźniki i informacje o gildii, aby zaprezentować swój podbój.",
+    "teamSize": "Rozmiar Gildii",
+    "teamSizeHint": "Liczba bohaterów, którzy pracowali nad tym podbojem",
+    "highlights": "Wyróżnienia",
+    "highlightPlaceholder": "np. Pierwsze miejsce na hackathonie",
+    "highlightsCount": "wyróżnień",
+    "keyMetrics": "Kluczowe Wskaźniki",
+    "metricLabel": "Nazwa wskaźnika",
+    "metricValue": "Wartość",
+    "metricsCount": "wskaźników",
+    "collaborators": "Członkowie Gildii",
+    "collaboratorName": "Imię i nazwisko",
+    "collaboratorRole": "Rola",
+    "collaboratorsCount": "sojuszników"
+  },
+  "create": {
+    "title": "Utwórz Nowy Podbój",
+    "subtitle": "Dodaj nowy podbój do swojej galerii. Pliki możesz przesłać po utworzeniu podboju.",
+    "backToPortfolio": "Wróć do Galerii",
+    "sections": {
+      "projectType": "Typ Podboju",
+      "basicInfo": "Podstawowe Informacje",
+      "tags": "Tagi",
+      "links": "Linki",
+      "timeline": "Oś Czasu",
+      "visibility": "Widoczność"
+    },
+    "typeDescriptions": {
+      "code": "Projekty programistyczne, skrypty lub repozytoria",
+      "document": "Raporty, artykuły lub prace pisemne",
+      "video": "Treści wideo lub nagrania",
+      "audio": "Podcasty, muzyka lub pliki audio",
+      "design": "Projekty graficzne lub prace artystyczne",
+      "model_3d": "Pliki CAD lub modele 3D",
+      "presentation": "Slajdy lub prezentacje",
+      "certification": "Certyfikaty lub poświadczenia",
+      "other": "Inne typy podbojów"
+    },
+    "fields": {
+      "title": "Tytuł",
+      "titlePlaceholder": "Mój Epicki Podbój",
+      "description": "Opis",
+      "descriptionPlaceholder": "Opisz swój podbój...",
+      "externalUrl": "Zewnętrzny URL",
+      "externalUrlPlaceholder": "https://example.com/moj-podboj",
+      "repositoryUrl": "URL Repozytorium",
+      "repositoryUrlPlaceholder": "https://github.com/user/repo",
+      "startDate": "Data Rozpoczęcia",
+      "endDate": "Data Zakończenia",
+      "datePlaceholder": "dd/mm/rrrr"
+    },
+    "tags": {
+      "addTag": "Dodaj tag",
+      "count": "{count}/10 tagów"
+    },
+    "visibilityDescriptions": {
+      "public": "Każdy może zobaczyć",
+      "unlisted": "Tylko z linkiem",
+      "private": "Tylko ty widzisz"
+    },
+    "required": "Wymagane",
+    "submit": "Utwórz Podbój",
+    "creating": "Tworzenie...",
+    "saveChanges": "Zapisz Zmiany",
+    "ongoingProject": "Ten podbój jest w toku"
+  }
+}

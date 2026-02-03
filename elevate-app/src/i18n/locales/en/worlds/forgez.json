@@ -1,0 +1,40 @@
+{
+  "name": "FORGE-Z",
+  "tagline": "Quest for Your Future",
+  "description": "Master the art of engineering through hands-on creation",
+  "navigation": {
+    "dashboard": "Command Center",
+    "skills": "Skill Tree",
+    "profile": "Hero Profile",
+    "settings": "Settings",
+    "portfolio": "Conquests",
+    "skillsBank": "Skill Vault",
+    "feedback": "Guild Reviews",
+    "teams": "Guild",
+    "careers": "Guild Hall",
+    "learn": "Skill Forge",
+    "compass": "Quest Map"
+  },
+  "actions": {
+    "startJourney": "Begin Quest",
+    "continueJourney": "Continue Quest",
+    "viewProgress": "View Progress"
+  },
+  "greetings": {
+    "welcomeMessage": "Welcome back, Adventurer",
+    "dailyGreeting": "Ready for your next quest?"
+  },
+  "terminology": {
+    "project": "Project",
+    "projects": "Conquests",
+    "skill": "Skill",
+    "skills": "Skills",
+    "team": "Guild",
+    "teams": "Guilds",
+    "goal": "Quest",
+    "goals": "Quests",
+    "progress": "Progress",
+    "achievement": "Achievement",
+    "level": "Level"
+  }
+}

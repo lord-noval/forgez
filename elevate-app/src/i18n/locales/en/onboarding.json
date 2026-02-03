@@ -1,0 +1,209 @@
+{
+  "title": "Welcome to FORGE-Z",
+  "subtitle": "Let's create your hero",
+  "personalInfo": {
+    "title": "Reveal your story",
+    "subtitle": "This helps us personalize your quest",
+    "firstName": {
+      "label": "First name",
+      "placeholder": "Enter your first name",
+      "required": "First name is required"
+    },
+    "lastName": {
+      "label": "Last name",
+      "placeholder": "Enter your last name",
+      "required": "Last name is required"
+    },
+    "birthday": {
+      "label": "Birthday",
+      "required": "Birthday is required",
+      "tooYoung": "You must be at least 13 years old to use FORGE-Z"
+    },
+    "phone": {
+      "label": "Phone number (optional)",
+      "placeholder": "Phone number",
+      "invalid": "Please enter a valid phone number"
+    }
+  },
+  "steps": {
+    "welcome": "Welcome",
+    "profile": "Hero Profile",
+    "worldQuiz": "World Quiz",
+    "skills": "Powers",
+    "goals": "Quests",
+    "complete": "Complete"
+  },
+  "welcome": {
+    "title": "Welcome to FORGE-Z",
+    "subtitle": "Forge powers that matter for your engineering quest",
+    "features": {
+      "portfolio": "Showcase your conquests with AI-powered power extraction",
+      "skills": "Build a proven power profile recognized by guilds",
+      "feedback": "Get guild wisdom from your allies",
+      "careers": "Discover quest paths in Space, Energy, Robotics, and AI"
+    },
+    "getStarted": "Begin Your Quest"
+  },
+  "profile": {
+    "title": "Reveal your story",
+    "subtitle": "This helps us personalize your quest",
+    "username": "Choose your hero name",
+    "usernamePlaceholder": "your_hero_name",
+    "headline": "Hero tagline",
+    "headlinePlaceholder": "e.g., Aspiring Robotics Engineer",
+    "bio": "Hero backstory",
+    "bioPlaceholder": "Share your legend...",
+    "location": "Location",
+    "locationPlaceholder": "City, Country"
+  },
+  "worldQuiz": {
+    "title": "Discover Your World",
+    "subtitle": "Answer a few questions to find your narrative home",
+    "intro": "FORGE-Z features 5 unique worlds, each with its own visual style and terminology. Let's find the one that matches your personality!",
+    "startQuiz": "Start Quiz",
+    "question": "Question {current} of {total}",
+    "questions": {
+      "workStyle": {
+        "question": "How do you prefer to work?",
+        "options": {
+          "explorer": "Exploring new frontiers and pushing boundaries",
+          "craftsman": "Mastering techniques through hands-on practice",
+          "networker": "Connecting with others and building systems",
+          "nurturer": "Growing ideas organically over time",
+          "researcher": "Analyzing data and discovering patterns"
+        }
+      },
+      "motivation": {
+        "question": "What motivates you most?",
+        "options": {
+          "discovery": "Discovering the unknown",
+          "creation": "Creating something tangible",
+          "innovation": "Innovating and disrupting",
+          "harmony": "Building harmony and balance",
+          "knowledge": "Expanding knowledge"
+        }
+      },
+      "environment": {
+        "question": "Your ideal quest environment?",
+        "options": {
+          "space": "A spaceship or space station",
+          "workshop": "A well-equipped workshop",
+          "techHub": "A high-tech digital hub",
+          "nature": "Surrounded by nature",
+          "lab": "A research laboratory"
+        }
+      }
+    },
+    "result": {
+      "title": "Your World: {world}",
+      "subtitle": "This world matches your style!",
+      "description": "You'll experience FORGE-Z through the lens of {world}, with unique visuals and terminology that resonate with your personality.",
+      "confirm": "Enter {world}",
+      "change": "Try a different world"
+    }
+  },
+  "skills": {
+    "title": "Unlock your first powers",
+    "subtitle": "Select powers you already possess",
+    "selectCategories": "Select categories that interest you",
+    "popularSkills": "Popular powers in your areas",
+    "addedCount": "{count} powers unlocked",
+    "skipForNow": "Skip for now"
+  },
+  "goals": {
+    "title": "Define your quests",
+    "subtitle": "What do you seek to achieve?",
+    "careerGoals": "Quest goals",
+    "careerGoalsPlaceholder": "e.g., Become a robotics engineer at NASA",
+    "industries": "Industries of interest",
+    "timeline": "Timeline",
+    "timelineOptions": {
+      "sixMonths": "6 months",
+      "oneYear": "1 year",
+      "twoYears": "2 years",
+      "fiveYears": "5+ years"
+    }
+  },
+  "complete": {
+    "title": "Your journey begins!",
+    "subtitle": "Your FORGE-Z adventure starts now",
+    "summary": "Here's what we've prepared for you:",
+    "worldSelected": "World: {world}",
+    "skillsAdded": "{count} powers unlocked",
+    "goalsSet": "Quests configured",
+    "goToDashboard": "Enter Command Center",
+    "explorePlatform": "Explore the realm"
+  },
+  "navigation": {
+    "back": "Back",
+    "next": "Next",
+    "skip": "Skip",
+    "finish": "Finish"
+  },
+  "progress": {
+    "step": "Step {current} of {total}"
+  },
+  "industries": {
+    "title": "What realms interest you most?",
+    "subtitle": "Select all that apply - we'll personalize your quest",
+    "space": {
+      "name": "Space & Aerospace",
+      "description": "Rockets, satellites, space exploration, and aerospace engineering"
+    },
+    "energy": {
+      "name": "Energy & Sustainability",
+      "description": "Renewable energy, batteries, EVs, and sustainable technology"
+    },
+    "robotics": {
+      "name": "Robotics & Automation",
+      "description": "Industrial robots, autonomous systems, and automation"
+    },
+    "software": {
+      "name": "Software & AI",
+      "description": "Software development, machine learning, and artificial intelligence"
+    }
+  },
+  "experience": {
+    "title": "What is your experience rank?",
+    "subtitle": "This helps us recommend the right training paths",
+    "student": {
+      "label": "Apprentice / Still learning",
+      "description": "Currently studying or just starting out"
+    },
+    "early": {
+      "label": "Early adventurer",
+      "description": "Less than 2 years of experience"
+    },
+    "mid": {
+      "label": "Seasoned hero",
+      "description": "2-5 years of experience"
+    },
+    "senior": {
+      "label": "Veteran / Master",
+      "description": "5+ years of experience"
+    }
+  },
+  "mainGoal": {
+    "title": "What is your main quest?",
+    "subtitle": "We'll help you achieve it",
+    "skills": {
+      "label": "Prove my powers",
+      "description": "Get proof of my abilities through conquests"
+    },
+    "career": {
+      "label": "Explore epic roles",
+      "description": "Discover opportunities that match my powers"
+    },
+    "learn": {
+      "label": "Unlock new powers",
+      "description": "Find training and resources to grow"
+    },
+    "team": {
+      "label": "Find a fellowship",
+      "description": "Connect with others for conquests or ventures"
+    }
+  },
+  "buttons": {
+    "getStarted": "Begin Your Quest"
+  }
+}

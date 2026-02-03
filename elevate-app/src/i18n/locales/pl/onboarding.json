@@ -1,0 +1,209 @@
+{
+  "title": "Witaj w FORGE-Z",
+  "subtitle": "Stwórzmy twojego bohatera",
+  "personalInfo": {
+    "title": "Odkryj swoją historię",
+    "subtitle": "To pomoże nam spersonalizować twój quest",
+    "firstName": {
+      "label": "Imię",
+      "placeholder": "Wprowadź swoje imię",
+      "required": "Imię jest wymagane"
+    },
+    "lastName": {
+      "label": "Nazwisko",
+      "placeholder": "Wprowadź swoje nazwisko",
+      "required": "Nazwisko jest wymagane"
+    },
+    "birthday": {
+      "label": "Data urodzenia",
+      "required": "Data urodzenia jest wymagana",
+      "tooYoung": "Musisz mieć co najmniej 13 lat, aby korzystać z FORGE-Z"
+    },
+    "phone": {
+      "label": "Numer telefonu (opcjonalnie)",
+      "placeholder": "Numer telefonu",
+      "invalid": "Wprowadź prawidłowy numer telefonu"
+    }
+  },
+  "steps": {
+    "welcome": "Powitanie",
+    "profile": "Profil Bohatera",
+    "worldQuiz": "Quiz Świata",
+    "skills": "Moce",
+    "goals": "Questy",
+    "complete": "Zakończenie"
+  },
+  "welcome": {
+    "title": "Witaj w FORGE-Z",
+    "subtitle": "Wykuj moce, które mają znaczenie dla twojego questu inżynierskiego",
+    "features": {
+      "portfolio": "Prezentuj podboje z wyodrębnianiem mocy przez AI",
+      "skills": "Buduj udowodniony profil mocy uznawany przez gildie",
+      "feedback": "Zdobywaj mądrość gildii od swoich sojuszników",
+      "careers": "Odkrywaj ścieżki questowe w Kosmosie, Energii, Robotyce i AI"
+    },
+    "getStarted": "Rozpocznij Quest"
+  },
+  "profile": {
+    "title": "Odkryj swoją historię",
+    "subtitle": "To pomoże nam spersonalizować twój quest",
+    "username": "Wybierz imię bohatera",
+    "usernamePlaceholder": "imie_bohatera",
+    "headline": "Slogan bohatera",
+    "headlinePlaceholder": "np. Aspirujący Inżynier Robotyki",
+    "bio": "Historia bohatera",
+    "bioPlaceholder": "Podziel się swoją legendą...",
+    "location": "Lokalizacja",
+    "locationPlaceholder": "Miasto, Kraj"
+  },
+  "worldQuiz": {
+    "title": "Odkryj Swój Świat",
+    "subtitle": "Odpowiedz na kilka pytań, aby znaleźć swój narracyjny dom",
+    "intro": "FORGE-Z oferuje 5 unikalnych światów, każdy z własnym stylem wizualnym i terminologią. Znajdźmy ten, który pasuje do twojej osobowości!",
+    "startQuiz": "Rozpocznij Quiz",
+    "question": "Pytanie {current} z {total}",
+    "questions": {
+      "workStyle": {
+        "question": "Jak wolisz pracować?",
+        "options": {
+          "explorer": "Odkrywanie nowych granic i przesuwanie barier",
+          "craftsman": "Opanowywanie technik przez praktykę",
+          "networker": "Łączenie się z innymi i budowanie systemów",
+          "nurturer": "Organiczny rozwój pomysłów w czasie",
+          "researcher": "Analiza danych i odkrywanie wzorców"
+        }
+      },
+      "motivation": {
+        "question": "Co najbardziej cię motywuje?",
+        "options": {
+          "discovery": "Odkrywanie nieznanego",
+          "creation": "Tworzenie czegoś namacalnego",
+          "innovation": "Innowacja i zakłócanie status quo",
+          "harmony": "Budowanie harmonii i równowagi",
+          "knowledge": "Poszerzanie wiedzy"
+        }
+      },
+      "environment": {
+        "question": "Twoje idealne środowisko questowe?",
+        "options": {
+          "space": "Statek kosmiczny lub stacja kosmiczna",
+          "workshop": "Dobrze wyposażony warsztat",
+          "techHub": "Wysokotechnologiczne centrum cyfrowe",
+          "nature": "Otoczony naturą",
+          "lab": "Laboratorium badawcze"
+        }
+      }
+    },
+    "result": {
+      "title": "Twój Świat: {world}",
+      "subtitle": "Ten świat pasuje do twojego stylu!",
+      "description": "Będziesz doświadczać FORGE-Z przez pryzmat {world}, z unikalnymi wizualizacjami i terminologią, które współgrają z twoją osobowością.",
+      "confirm": "Wejdź do {world}",
+      "change": "Wypróbuj inny świat"
+    }
+  },
+  "skills": {
+    "title": "Odblokuj swoje pierwsze moce",
+    "subtitle": "Wybierz moce, które już posiadasz",
+    "selectCategories": "Wybierz kategorie, które cię interesują",
+    "popularSkills": "Popularne moce w twoich obszarach",
+    "addedCount": "Odblokowano {count} mocy",
+    "skipForNow": "Pomiń na razie"
+  },
+  "goals": {
+    "title": "Zdefiniuj swoje questy",
+    "subtitle": "Co chcesz osiągnąć?",
+    "careerGoals": "Cele questowe",
+    "careerGoalsPlaceholder": "np. Zostać inżynierem robotyki w NASA",
+    "industries": "Interesujące branże",
+    "timeline": "Horyzont czasowy",
+    "timelineOptions": {
+      "sixMonths": "6 miesięcy",
+      "oneYear": "1 rok",
+      "twoYears": "2 lata",
+      "fiveYears": "5+ lat"
+    }
+  },
+  "complete": {
+    "title": "Twoja podróż się zaczyna!",
+    "subtitle": "Twoja przygoda z FORGE-Z zaczyna się teraz",
+    "summary": "Oto co dla ciebie przygotowaliśmy:",
+    "worldSelected": "Świat: {world}",
+    "skillsAdded": "Odblokowano {count} mocy",
+    "goalsSet": "Questy skonfigurowane",
+    "goToDashboard": "Wejdź do Centrum Dowodzenia",
+    "explorePlatform": "Odkryj królestwo"
+  },
+  "navigation": {
+    "back": "Wstecz",
+    "next": "Dalej",
+    "skip": "Pomiń",
+    "finish": "Zakończ"
+  },
+  "progress": {
+    "step": "Krok {current} z {total}"
+  },
+  "industries": {
+    "title": "Jakie krainy cię interesują?",
+    "subtitle": "Wybierz wszystkie, które pasują - spersonalizujemy twój quest",
+    "space": {
+      "name": "Kosmos i Lotnictwo",
+      "description": "Rakiety, satelity, eksploracja kosmosu i inżynieria lotnicza"
+    },
+    "energy": {
+      "name": "Energia i Zrównoważony Rozwój",
+      "description": "Energia odnawialna, baterie, pojazdy elektryczne i zrównoważone technologie"
+    },
+    "robotics": {
+      "name": "Robotyka i Automatyzacja",
+      "description": "Roboty przemysłowe, systemy autonomiczne i automatyzacja"
+    },
+    "software": {
+      "name": "Oprogramowanie i AI",
+      "description": "Tworzenie oprogramowania, uczenie maszynowe i sztuczna inteligencja"
+    }
+  },
+  "experience": {
+    "title": "Jaka jest twoja ranga doświadczenia?",
+    "subtitle": "To pomoże nam polecić odpowiednie ścieżki treningowe",
+    "student": {
+      "label": "Uczeń / Wciąż się uczę",
+      "description": "Obecnie studiuję lub dopiero zaczynam"
+    },
+    "early": {
+      "label": "Początkujący poszukiwacz",
+      "description": "Mniej niż 2 lata doświadczenia"
+    },
+    "mid": {
+      "label": "Doświadczony bohater",
+      "description": "2-5 lat doświadczenia"
+    },
+    "senior": {
+      "label": "Weteran / Mistrz",
+      "description": "5+ lat doświadczenia"
+    }
+  },
+  "mainGoal": {
+    "title": "Jaki jest twój główny quest?",
+    "subtitle": "Pomożemy ci go osiągnąć",
+    "skills": {
+      "label": "Udowodnić moje moce",
+      "description": "Uzyskać dowód moich zdolności poprzez podboje"
+    },
+    "career": {
+      "label": "Odkryć epickie role",
+      "description": "Odkryć możliwości pasujące do moich mocy"
+    },
+    "learn": {
+      "label": "Odblokować nowe moce",
+      "description": "Znaleźć treningi i zasoby do rozwoju"
+    },
+    "team": {
+      "label": "Znaleźć drużynę",
+      "description": "Połączyć się z innymi do podbojów lub przedsięwzięć"
+    }
+  },
+  "buttons": {
+    "getStarted": "Rozpocznij Quest"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "title": "Settings",
+  "subtitle": "Manage your hero account and preferences",
+  "world": {
+    "title": "Narrative World",
+    "description": "Choose your themed experience",
+    "current": "Current world"
+  },
+  "profile": {
+    "title": "Hero Profile",
+    "description": "Your public hero information",
+    "email": "E-mail",
+    "emailCannotChange": "Email cannot be changed",
+    "username": "Hero Name",
+    "usernamePlaceholder": "Enter your hero name"
+  },
+  "language": {
+    "title": "Language",
+    "description": "Choose your preferred language"
+  },
+  "notifications": {
+    "title": "Notifications",
+    "description": "Configure when you want to receive alerts",
+    "dailyReminder": "Daily Reminder Time",
+    "reminderDescription": "You'll receive reminders about quests and updates"
+  },
+  "appearance": {
+    "title": "Appearance",
+    "description": "Customize how the realm looks",
+    "darkMode": "Dark Mode",
+    "darkModeDescription": "Always enabled for the best experience",
+    "lightModeError": "Day mode? What is this, 2016?"
+  },
+  "dangerZone": {
+    "title": "Danger Zone",
+    "description": "Irreversible actions for your hero account",
+    "restartJourney": {
+      "title": "Restart Your Journey",
+      "description": "Reset your quest progress, archetype, and XP to start fresh from Quest 1.",
+      "button": "Restart Journey",
+      "confirmTitle": "Restart your journey?",
+      "confirmMessage": "This will reset all your quest progress, archetype selection, and XP. Your conquests and powers will be kept. This action cannot be undone.",
+      "confirm": "Yes, restart",
+      "cancel": "Cancel"
+    }
+  },
+  "actions": {
+    "saveChanges": "Save Changes",
+    "saved": "Saved!"
+  }
+}
